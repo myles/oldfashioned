@@ -8,7 +8,8 @@
     "prestart": "npm install",
     "build": "npm run prestart && gulp",
     "start": "gulp --dev",
-    "test": "npm run build"
+    "test": "npm run build",
+    "deploy": "npm build && gulp deploy"
   },
   "author": "Myles Braithwaite",
   "repository": {
