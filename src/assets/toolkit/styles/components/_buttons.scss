@@ -1,0 +1,76 @@
+//sass-lint:disable force-element-nesting
+
+$btn-border-width: 1px;
+$btn-font-weight: normal;
+
+.c-btn {
+  @include button-size;
+
+  border: $btn-border-width solid transparent;
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  text-align: center;
+  transition: .2s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--link {
+    border-radius: 0;
+    color: $link-colour;
+    font-weight: $base-font-weight;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+
+  &--primary {
+    @include button-colour-variant($colour-primary);
+
+    .c-btn__icon * {
+      fill: set-text-colour($colour-primary);
+    }
+  }
+
+  &--secondary {
+    @include button-outline-colour-variant($colour-primary);
+
+    .btn__icon * {
+      fill: $colour-primary;
+    }
+  }
+
+  @each $name, $colour in $colour-palette {
+    &--#{$name} {
+      @include button-colour-variant($colour);
+
+      .c-btn__icon * {
+        fill: set-text-colour($colour);
+      }
+    }
+
+    &--outline-#{$name} {
+      @include button-outline-colour-variant($colour);
+
+      .btn__icon * {
+        fill: $colour;
+      }
+    }
+  }
+
+  &__icon {
+    height: .75em;
+    width: .75em;
+  }
+}

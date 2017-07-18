@@ -1,0 +1,61 @@
+.c-block-hero {
+  display: block;
+  position: relative;
+
+  &__image {
+    display: block;
+    max-height: 50vh;
+    object-fit: cover;
+    width: 100%;
+
+    &--full {
+      max-height: 100vh;
+    }
+
+    &--dark {
+      filter: brightness(50%);
+    }
+
+    &--light {
+      filter: blur(1px);
+    }
+  }
+
+  &__wrapper {
+    @include media(map-get($breakpoints, 'medium')) {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      left: 0;
+      padding: $spacer;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    text-align: center;
+  }
+
+  &__headline,
+  &__copy {
+    width: 75%;
+
+    &--dark {
+      color: $colour-white;
+    }
+
+    &--light {
+      color: $colour-black;
+    }
+  }
+
+  &__headline {
+    font-size: 2.6rem;
+    transition: .2s ease;
+  }
+
+  &__copy {
+    font-size: 1.5rem;
+  }
+}

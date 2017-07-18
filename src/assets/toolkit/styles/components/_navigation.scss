@@ -1,0 +1,23 @@
+.c-nav-footer {
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0 .5rem;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    padding: .5rem 1rem;
+  }
+}

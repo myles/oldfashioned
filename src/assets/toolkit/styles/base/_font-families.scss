@@ -1,0 +1,27 @@
+%base-font-family,
+.base-font-family {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+}
+
+%font-family-sans,
+.font-family-sans {
+  font-family: $sans-font-family;
+  font-size: $sans-font-size;
+  font-weight: $sans-font-weight;
+}
+
+%font-family-serif,
+.font-family-serif {
+  font-family: $serif-font-family;
+  font-size: $serif-font-size;
+  font-weight: $serif-font-weight;
+}
+
+%font-family-mono,
+.font-family-mono {
+  font-family: $mono-font-family;
+  font-size: $mono-font-size;
+  font-weight: $mono-font-weight;
+}

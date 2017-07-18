@@ -1,0 +1,34 @@
+sudo: false
+language: node_js
+
+node_js:
+  - "5"
+  - "4"
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_54a1e93d66dc_key -iv $encrypted_54a1e93d66dc_iv -in ./deploy/id_rsa.enc -out ./deploy/id_rsa -d
+  - chmod 600 ./deploy/id_rsa
+  - eval `ssh-agent -s`
+  - ssh-add ./deploy/id_rsa
+
+before_script:
+  - npm install -g gulp-cli
+
+script: npm run build
+
+notifications:
+  webhooks:
+    on_success: change
+    on_failure: always
+
+before_deploy:
+  - git config --global user.email publish.travis.github
+  - git config --global user.name "Travis"
+
+deploy:
+  - edge: true
+    skip_cleanup: true
+    provider: script
+    script: gulp deploy
+    on:
+      branch: master

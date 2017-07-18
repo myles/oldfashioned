@@ -1,0 +1,15 @@
+%displays {
+  color: $displays-colour;
+  font-family: $displays-font-family;
+  font-weight: $displays-font-weight;
+  line-height: $displays-line-height;
+  margin-bottom: $displays-margin-bottom;
+}
+
+@each $index, $font-size in $displays-font-sizes {
+  .display-#{$index} {
+    @extend %displays;
+
+    font-size: $font-size;
+  }
+}

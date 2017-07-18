@@ -1,0 +1,33 @@
+%paragraph {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+p {
+  @extend %paragraph;
+}
+
+.paragraph {
+  @extend %paragraph;
+
+  &--base-font-family {
+    @extend %base-font-family;
+  }
+
+  &--font-family-sans {
+    @extend %font-family-sans;
+  }
+
+  &--font-family-serif {
+    @extend %font-family-serif;
+  }
+
+  &--font-family-mono {
+    @extend %font-family-mono;
+  }
+
+  &--lead {
+    font-size: $lead-font-size;
+    font-weight: $lead-font-weight;
+  }
+}

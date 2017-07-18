@@ -1,0 +1,16 @@
+<ol>
+  {{#iterate 3}}
+  <li>List Item {{@index}}</li>
+  {{/iterate}}
+  <li>
+    Item with an unordered list.
+    <ol>
+      {{#iterate 2}}
+      <li>List Item {{@index}}</li>
+      {{/iterate}}
+    </ol>
+  </li>
+  {{#iterate 2}}
+  <li>List Item {{@index}}</li>
+  {{/iterate}}
+</ol>
