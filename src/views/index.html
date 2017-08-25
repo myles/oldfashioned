@@ -1,5 +1,5 @@
 ---
-title: Overview | Fabricator
+title: Overview | Old Fashioned
 fabricator: true
 ---
 
@@ -20,16 +20,38 @@ fabricator: true
 
 <h2>Color</h2>
 
-{{#each toolkit.colors}}
-	<div class="f-color-chips">
-	{{#each this}}
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">${{@key}}</div>
-			<div class="f-color-chip__color">{{this}}</div>
-		</div>
-	{{/each}}
-	</div>
-{{/each}}
+<h3>Primary</h3>
+
+<div class="f-color-chips">
+  {{#each toolkit.colors.primary}}
+  <div class="f-color-chip">
+    <div class="f-color-chip__name">${{@key}}</div>
+    <div class="f-color-chip__color">{{this}}</div>
+  </div>
+  {{/each}}
+</div>
+
+<h3>Secondary</h3>
+
+<div class="f-color-chips">
+  {{#each toolkit.colors.secondary}}
+  <div class="f-color-chip">
+    <div class="f-color-chip__name">${{@key}}</div>
+    <div class="f-color-chip__color">{{this}}</div>
+  </div>
+  {{/each}}
+</div>
+
+<h3>Neutral</h3>
+
+<div class="f-color-chips">
+  {{#each toolkit.colors.neutral}}
+  <div class="f-color-chip">
+    <div class="f-color-chip__name">${{@key}}</div>
+    <div class="f-color-chip__color">{{this}}</div>
+  </div>
+  {{/each}}
+</div>
 
 <h2>Typography</h2>
 

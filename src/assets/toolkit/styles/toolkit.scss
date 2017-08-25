@@ -1,5 +1,5 @@
 //sass-lint:disable no-css-comments
-/*
+/**
  * Old Fashioned
  *
  * URL: https://myles.github.io/oldfashioned/
@@ -7,6 +7,7 @@
  */
 //sass-lint:enable no-css-comments
 
+@import 'sass-color-helpers/stylesheets/color-helpers';
 @import 'bourbon/app/assets/stylesheets/bourbon';
 @import 'bourbon-neat/app/assets/stylesheets/neat';
 
@@ -20,12 +21,17 @@
 
 @import 'abstracts/mixins/border-radius';
 @import 'abstracts/mixins/buttons';
+@import 'abstracts/mixins/font-face';
+@import 'abstracts/mixins/hover';
+@import 'abstracts/mixins/selection';
+@import 'abstracts/mixins/strock-font';
 
 // Base
 @import 'base/base';
 
 @import 'base/backgrounds';
 @import 'base/displays';
+@import 'base/code-block';
 @import 'base/font-families';
 @import 'base/headings';
 @import 'base/links';
@@ -35,6 +41,7 @@
 @import 'base/utilities';
 
 // Components
+@import 'components/alerts';
 @import 'components/block-hero';
 @import 'components/buttons';
 @import 'components/footer';

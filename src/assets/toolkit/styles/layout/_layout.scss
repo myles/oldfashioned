@@ -1,4 +1,6 @@
-.l {
+$module: 'l';
+
+.#{$module} {
   @include outer-container;
 
   &--fill {

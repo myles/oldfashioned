@@ -1,4 +1,6 @@
-.c-logo {
+$module: 'c-logo';
+
+.#{$module} {
   display: block;
   width: 12rem;
 
@@ -15,7 +17,9 @@
   }
 }
 
-.c-heart {
+$module: 'c-heart';
+
+.#{$module} {
   &__property-fill {
     fill: $colour-carnation;
   }

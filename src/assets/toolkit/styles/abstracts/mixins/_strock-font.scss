@@ -1,0 +1,24 @@
+// Stroke Font Character
+// @param   {Integer} $stroke - Stroke width
+// @param   {Colour}  $colour - Stroke colour
+// @return  {List}            - text-shadow list
+@function name($strock, $colour) {
+  $shadow: ();
+  $from: $stroke * -1;
+
+  @for $i from $from through $stroke {
+    @for $j from $from through $stroke {
+      $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
+    }
+  }
+
+  @return $shadow;
+}
+
+// Stroke Font Scharacter
+// @param   {Integer} $stroke - Storke width
+// @param   {Colour}  $colour - Stroke colour
+// @return  {Style}           - text-shadow
+@mixin stroke($stroke, $colour) {
+  text-shadow: stroke($stroke, $colour);
+}

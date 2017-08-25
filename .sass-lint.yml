@@ -1,4 +1,7 @@
 rules:
+
   class-name-format:
     - 1
     - convention: hyphenatedbem
+
+  no-warn: 0

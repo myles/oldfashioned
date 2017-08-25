@@ -1,3 +1,5 @@
+$module: 'paragraph';
+
 %paragraph {
   margin-bottom: 1rem;
   margin-top: 0;
@@ -7,7 +9,7 @@ p {
   @extend %paragraph;
 }
 
-.paragraph {
+.#{$module} {
   @extend %paragraph;
 
   &--base-font-family {

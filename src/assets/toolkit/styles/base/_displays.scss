@@ -1,3 +1,5 @@
+$module: 'display';
+
 %displays {
   color: $displays-colour;
   font-family: $displays-font-family;
@@ -7,7 +9,7 @@
 }
 
 @each $index, $font-size in $displays-font-sizes {
-  .display-#{$index} {
+  .#{$module}-#{$index} {
     @extend %displays;
 
     font-size: $font-size;

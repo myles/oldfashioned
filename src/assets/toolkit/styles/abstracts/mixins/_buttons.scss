@@ -1,3 +1,5 @@
+// sass-lint:disable mixins-before-declarations
+
 @mixin button-size($padding-y: .5rem, $padding-x: .75rem,
   $font-size: $base-font-size, $line-height: 1.25,
   $border-radius: $border-radius) {
@@ -13,7 +15,7 @@
   background-color: $colour;
   color: set-text-colour($colour);
 
-  &:hover {
+  @include hover-focus-active {
     background-color: darken($colour, 15);
     color: set-text-colour($colour);
   }
@@ -23,7 +25,7 @@
   background-color: $colour-white;
   border-color: $colour;
 
-  &:hover {
+  @include hover-focus-active {
     border-color: darken($colour, 15);
   }
 }

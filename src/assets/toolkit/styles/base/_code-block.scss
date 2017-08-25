@@ -1,0 +1,97 @@
+// sass-lint:disable class-name-format
+
+$code-block-bg-colour: $colour-grey-dark !default;
+$code-block-text-colour: $colour-white !default;
+
+.code-block {
+  .hljs {
+    background-color: $code-block-bg-colour;
+    color: $code-block-text-colour;
+    display: block;
+    overflow-x: auto;
+    padding: map-get($spacers, 2);
+
+    &-name,
+    &-strong {
+      font-weight: bold;
+    }
+
+    &-code,
+    &-emphasis {
+      font-style: italic;
+    }
+
+    &-tag {
+      color: $colour-lochmara;
+    }
+
+    &-variable,
+    &-template-variable,
+    &-selector-id,
+    &-selector-class {
+      color: $colour-malibu;
+    }
+
+    &-string,
+    &-bullet {
+      color: $colour-caribbean-green;
+    }
+
+    &-type,
+    &-title,
+    &-section,
+    &-attribute,
+    &-quote,
+    &-built_in,
+    &-builtin-name {
+      color: $colour-paris-daisy;
+    }
+
+    &-number,
+    &-symbol,
+    &-bullet {
+      color: $colour-carnation;
+    }
+
+    &-keyword,
+    &-selector-tag,
+    &-literal {
+      color: $colour-saffron;
+    }
+
+    &-comment,
+    &-deletion,
+    &-code {
+      color: $colour-grey;
+    }
+
+    &-regexp,
+    &-link {
+      color: $colour-trendy-pink;
+    }
+
+    &-meta {
+      color: $colour-carnation;
+    }
+
+    &-deletion {
+      background-color: $colour-carnation;
+      color: $colour-grey-dark;
+    }
+
+    &-addition {
+      background-color: $colour-caribbean-green;
+      color: $colour-grey-dark;
+    }
+
+    a {
+      color: inherit;
+
+      &:focus,
+      &:hover {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+  }
+}

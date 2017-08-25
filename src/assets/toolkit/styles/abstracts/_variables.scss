@@ -10,8 +10,22 @@ $breakpoints: (
   xsmall: new-breakpoint(min-width 480px)
 ) !default;
 
-// Primary Colour
+// Theme Colours
 $colour-primary: $colour-lochmara !default;
+$colour-secondary: $colour-carnation !default;
+$colour-success: $colour-caribbean-green !default;
+$colour-info: $colour-malibu !default;
+$colour-warning: $colour-paris-daisy !default;
+$colour-danger: $colour-carnation !default;
+
+$theme-colours: (
+  primary: $colour-primary,
+  secondary: $colour-secondary,
+  success: $colour-success,
+  info: $colour-info,
+  warning: $colour-warning,
+  danger: $colour-danger
+) !default;
 
 // HTML & Body
 $html-bg-colour: $colour-primary !default;
@@ -69,7 +83,17 @@ $sizes: (
   25: 25%,
   50: 50%,
   75: 75%,
-  100: 100%
+  100: 100%,
+  125: 125%,
+  150: 150%,
+) !default;
+
+$name-sizes: (
+  xsmall: map-get($sizes, 25),
+  small: map-get($sizes, 50),
+  medium: map-get($sizes, 75),
+  large: map-get($sizes, 125),
+  xlarge: map-get($sizes, 150),
 ) !default;
 
 // Headings
@@ -85,7 +109,7 @@ $headings-font-sizes: (
   3: 1.953rem,
   4: 1.563rem,
   5: 1.25rem,
-  6: 1rem
+  6: $base-font-size
 ) !default;
 
 // Displays

@@ -1,5 +1,7 @@
+$module: 'headings';
+
 %headings,
-.headings {
+.#{$module} {
   color: $headings-colour;
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
@@ -13,7 +15,7 @@
   }
 
   h#{$index},
-  .heading--#{$index} {
+  .#{$module}--#{$index} {
     font-size: $font-size;
   }
 }

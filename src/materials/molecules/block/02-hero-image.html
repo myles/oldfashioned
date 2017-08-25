@@ -1,5 +1,5 @@
-<a class="c-block-hero {{heroClass}}" href="javascript:void()">
-  <img class="c-block-hero__image {{imgClass}}" src="{{#if imgSrc}}{{imgSrc}}{{else}}holder.js/1280x720?auto=yes{{/if}}">
+<div class="c-block-hero {{heroClass}}">
+  <img class="c-block-hero__image {{imgClass}}" src="{{#if imgSrc}}{{imgSrc}}{{else}}holder.js/1280x720?auto=yes&theme=sky{{/if}}">
 
   <div class="c-block-hero__wrapper">
     <h1 class="c-block-hero__headline {{headlineClass}}">
@@ -9,5 +9,9 @@
     <p class="c-block-hero__copy {{copyClass}}">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate enim vitae purus accumsan aliquet. Aenean iaculis nec ex sed finibus. Morbi sit amet lobortis nisl, vel placerat mi.
     </p>
+
+    <div class="c-block-hero__btn-group">
+      {{> buttons.button-link }}
+    </div>
   </div>
-</a>
+</div>

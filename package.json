@@ -9,7 +9,7 @@
     "build": "npm run prestart && gulp",
     "start": "gulp --dev",
     "test": "npm run build",
-    "deploy": "npm build && gulp deploy"
+    "deploy": "npm run build && gulp deploy"
   },
   "author": "Myles Braithwaite",
   "repository": {
@@ -51,6 +51,7 @@
   "dependencies": {
     "bourbon": "^4.3.4",
     "bourbon-neat": "^1.9.0",
-    "normalize.css": "^7.0.0"
+    "highlight.js": "^9.12.0",
+    "sass-color-helpers": "^2.1.1"
   }
 }

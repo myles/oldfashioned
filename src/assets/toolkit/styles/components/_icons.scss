@@ -1,6 +1,8 @@
 //sass-lint:disable force-element-nesting
 
-.c-icon {
+$module: 'c-icon';
+
+.#{$module} {
   margin-left: .25em;
 
   &--primary * {

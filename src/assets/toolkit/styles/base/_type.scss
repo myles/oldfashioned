@@ -1,0 +1,53 @@
+del,
+.text-delete {
+  text-decoration: $colour-danger wavy line-through;
+}
+
+ins,
+.text-insert {
+  text-decoration: $colour-success wavy underline;
+}
+
+small,
+.text-small {
+  font-size: map-get($sizes, 75);
+}
+
+abbr,
+.text-abbreviation {
+  text-decoration: $colour-grey-light underline;
+}
+
+kbd,
+.text-keyboard-input {
+  background-color: $colour-grey-dark;
+  color: $colour-white;
+  font-family: $mono-font-family;
+  font-size: $mono-font-size;
+  font-weight: $mono-font-weight;
+  line-height: $mono-line-height;
+  padding: 0 map-get($spacers, 2);
+}
+
+mark,
+.text-mark {
+  @include selection {
+    background-color: darken($colour-paris-daisy, 25%);
+  }
+
+  background-color: $colour-paris-daisy;
+}
+
+.text-mark {
+  @each $name, $colour in $colour-palette {
+    &--#{$name} {
+      @include selection {
+        background-color: darken($colour, 25%);
+        color: set-text-colour(darken($colour, 25%));
+      }
+
+      background-color: $colour;
+      color: set-text-colour($colour);
+    }
+  }
+}

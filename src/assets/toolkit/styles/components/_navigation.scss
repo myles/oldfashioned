@@ -1,4 +1,6 @@
-.c-nav-footer {
+$module: 'c-nav-footer';
+
+.#{$module} {
   &__list {
     list-style: none;
     padding: 0;

@@ -24,3 +24,46 @@ ul {
     }
   }
 }
+
+dl {
+  margin: $spacer 0 0 $spacer;
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: map-get($spacers, 4);
+  }
+}
+
+// sass-lint:disable mixins-before-declarations, property-sort-order
+.dl-horizontal {
+  $dd-column-size: $grid-columns / 1.4;
+  $dt-column-size: $grid-columns - $dd-column-size;
+
+  @include outer-container(100%);
+  @include fill-parent;
+
+  dl {
+    margin: 0;
+
+    @include row;
+  }
+
+  dt {
+    @include span-columns($dt-column-size);
+
+    margin-bottom: .5rem;
+  }
+
+  dd {
+    margin-left: 0;
+
+    @include span-columns($dd-column-size);
+    @include omega;
+
+    margin-bottom: map-get($spacers, 2);
+  }
+}
+// sass-lint:enable mixins-before-declarations

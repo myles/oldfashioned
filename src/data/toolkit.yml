@@ -18,3 +18,12 @@ colors:
     'colour-chino': 'rgb(207, 203, 175)'
     'colour-buccaneer': 'rgb(88, 44, 43)'
     'colour-falu-red': 'rgb(132, 30, 27)'
+
+  neutral:
+    'colour-black': 'rgb(0, 0, 0)'
+    'colour-grey-dark': 'rgb(41, 43, 44)'
+    'colour-grey': 'rgb(70, 74, 76)'
+    'colour-grey-light': 'rgb(99, 108, 114)'
+    'colour-grey-lighter': 'rgb(236, 238, 239)'
+    'colour-grey-lightest': 'rgb(247, 247, 249)'
+    'colour-white': 'rgb(255, 255, 255)'

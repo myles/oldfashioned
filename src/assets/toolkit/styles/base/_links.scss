@@ -1,10 +1,21 @@
-a {
-  color: $link-colour;
-  text-decoration: $link-decoration;
+$module: 'link';
 
-  &:focus,
-  &:hover {
+// sass-lint:disable mixins-before-declarations
+a,
+.#{$module} {
+  background-color: transparent;
+  color: $link-colour;
+  cursor: pointer;
+  text-decoration: $link-decoration;
+  text-decoration-skip: objects;
+
+  @include hover-focus-active {
     color: $link-hover-colour;
     text-decoration: $link-hover-decoration;
+
+    @include selection {
+      background-color: $link-colour;
+    }
   }
 }
+// sass-lint:enable mixins-before-declarations

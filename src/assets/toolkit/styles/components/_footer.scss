@@ -1,4 +1,6 @@
-.c-footer {
+$module: 'c-footer';
+
+.#{$module} {
   background-color: $colour-primary;
   color: $colour-white;
   padding: 1rem;
@@ -7,11 +9,11 @@
   &--align-left {
     text-align: left;
 
-    .c-footer__logo {
+    .#{$module}__logo {
       margin: inherit;
     }
 
-    .c-footer__separator {
+    .#{$module}__separator {
       display: none;
     }
   }

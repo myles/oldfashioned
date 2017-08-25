@@ -1,8 +1,10 @@
-$c-header-bg-colour: $colour-primary;
-$c-header-link-colour: $colour-white;
-$c-header-text-colour: mix($colour-primary, $colour-white, 50%);
+$module: 'c-header';
 
-.c-header {
+$c-header-bg-colour: $colour-primary !default;
+$c-header-link-colour: $colour-white !default;
+$c-header-text-colour: mix($colour-primary, $colour-white, 50%) !default;
+
+.#{$module} {
   background-color: $c-header-bg-colour;
   color: $c-header-text-colour;
 
