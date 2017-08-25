@@ -10,7 +10,7 @@ const webpack = require('webpack');
 function getPlugins(isDev) {
 
   const plugins = [
-    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.DefinePlugin({}),
   ];
 
@@ -41,7 +41,7 @@ function getLoaders() {
   const loaders = [{
     test: /(\.js)/,
     exclude: /(node_modules)/,
-    loaders: ['babel'],
+    loaders: ['babel-loader'],
   }, {
     test: /(\.jpg|\.png)$/,
     loader: 'url-loader?limit=10000',
@@ -66,9 +66,6 @@ module.exports = (config) => {
       filename: '[name].js',
     },
     devtool: 'source-map',
-    resolve: {
-      extensions: ['', '.js'],
-    },
     plugins: getPlugins(config.dev),
     module: {
       loaders: getLoaders(),
