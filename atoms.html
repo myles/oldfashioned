@@ -1093,6 +1093,10 @@ for c in (65, 97):
 
 print "".join([d.get(c, c) for c in s])
 </code></pre>
+
+<pre class="code-block">
+  <code class="highlight"><span></span><span class="k">def</span> <span class="nf">fact</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">acc</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span> <span class="k">return</span> <span class="n">acc</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">n</span> <span class="k">else</span> <span class="n">fact</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">*</span><span class="n">acc</span><span class="p">)</span>
+</code></pre>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;pre class&#x3D;&quot;code-block&quot;&gt;&lt;code class&#x3D;&quot;python&quot;&gt;
@@ -1124,6 +1128,10 @@ for c in (65, 97):
         d[chr(i+c)] &#x3D; chr((i+13) % 26 + c)
 
 print &quot;&quot;.join([d.get(c, c) for c in s])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre class&#x3D;&quot;code-block&quot;&gt;
+  &lt;code class&#x3D;&quot;highlight&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class&#x3D;&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class&#x3D;&quot;nf&quot;&gt;fact&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class&#x3D;&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class&#x3D;&quot;n&quot;&gt;acc&lt;/span&gt;&lt;span class&#x3D;&quot;o&quot;&gt;&#x3D;&lt;/span&gt;&lt;span class&#x3D;&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class&#x3D;&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class&#x3D;&quot;n&quot;&gt;acc&lt;/span&gt; &lt;span class&#x3D;&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class&#x3D;&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class&#x3D;&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class&#x3D;&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class&#x3D;&quot;n&quot;&gt;fact&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class&#x3D;&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class&#x3D;&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class&#x3D;&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class&#x3D;&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class&#x3D;&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class&#x3D;&quot;n&quot;&gt;acc&lt;/span&gt;&lt;span class&#x3D;&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;</code></pre>
 </div>
 
