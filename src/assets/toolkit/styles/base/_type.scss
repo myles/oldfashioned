@@ -1,10 +1,18 @@
 del,
 .text-delete {
+  @include selection {
+    background-color: $colour-danger;
+  }
+
   text-decoration: $colour-danger wavy line-through;
 }
 
 ins,
 .text-insert {
+  @include selection {
+    background-color: $colour-success;
+  }
+
   text-decoration: $colour-success wavy underline;
 }
 
@@ -20,6 +28,10 @@ abbr,
 
 kbd,
 .text-keyboard-input {
+  @include selection {
+    background-color: lighten($colour-grey-dark, 25%);
+  }
+
   background-color: $colour-grey-dark;
   color: $colour-white;
   font-family: $mono-font-family;

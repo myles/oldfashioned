@@ -28,3 +28,7 @@ for c in (65, 97):
 
 print "".join([d.get(c, c) for c in s])
 </code></pre>
+
+<pre class="code-block">
+  <code class="highlight"><span></span><span class="k">def</span> <span class="nf">fact</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">acc</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span> <span class="k">return</span> <span class="n">acc</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">n</span> <span class="k">else</span> <span class="n">fact</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">*</span><span class="n">acc</span><span class="p">)</span>
+</code></pre>
