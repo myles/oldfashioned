@@ -1,7 +1,10 @@
+// From Generate colour themes with ease thanks to this SCSS mixin
+// by Xavier Bertels: <http://bit.ly/2eQLQiC>
+
 @function set-text-colour($colour) {
-  @if (lightness($colour) > 50) {
-    @return $colour-black; // Lighter backgorund, return dark color
+  @if (.2126 * red($colour) + .7152 * green($colour) + .0722 * blue($colour)) / 255 <= .5 {
+    @return mix($colour-white, $colour, 95%);
   } @else {
-    @return $colour-white; // Darker background, return light color
+    @return mix($colour-black, $colour, 70%);
   }
 }
