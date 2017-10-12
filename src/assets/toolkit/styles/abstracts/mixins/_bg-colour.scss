@@ -1,0 +1,12 @@
+@mixin bg-colour($colour) {
+  background-color: $colour;
+  color: set-text-colour($colour);
+
+  a {
+    @include hover-focus-active {
+      //sass-lint:disable no-important
+      background-color: darken($colour, 10%) !important;
+      //sass-lint:enabled no-important
+    }
+  }
+}
