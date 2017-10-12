@@ -46,12 +46,14 @@
     "imports-loader": "^0.7.1",
     "run-sequence": "^2.1.0",
     "script-loader": "^0.7.0",
+    "vue-loader": "^13.0.5",
     "webpack": "^3.5.5"
   },
   "dependencies": {
     "bourbon": "^4.3.4",
     "bourbon-neat": "^1.9.0",
     "highlight.js": "^9.12.0",
-    "sass-color-helpers": "^2.1.1"
+    "sass-color-helpers": "^2.1.1",
+    "vue": "^2.4.4"
   }
 }

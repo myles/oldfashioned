@@ -43,6 +43,10 @@ function getLoaders() {
     exclude: /(node_modules)/,
     loaders: ['babel-loader'],
   }, {
+    test: /(\.vue)/,
+    exclude: /(node_modules)/,
+    loaders: ['vue-loader'],
+  }, {
     test: /(\.jpg|\.png)$/,
     loader: 'url-loader?limit=10000',
   }, {

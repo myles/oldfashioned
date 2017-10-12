@@ -1,0 +1,2673 @@
+//sass-lint:disable hex-length
+
+$brand-colour-500px: #0099e5;
+$brand-colour-500px-1: #0099e5;
+$brand-colour-500px-2: #ff4c4c;
+$brand-colour-500px-3: #34bf49;
+$brand-colour-about-me: #00a98f;
+$brand-colour-about-me-1: #00a98f;
+$brand-colour-adobe: #ff0000;
+$brand-colour-adobe-1: #ff0000;
+$brand-colour-adobe-2: #fbb034;
+$brand-colour-adobe-3: #ffdd00;
+$brand-colour-adobe-4: #c1d82f;
+$brand-colour-adobe-5: #00a4e4;
+$brand-colour-adobe-6: #8a7967;
+$brand-colour-adobe-7: #6a737b;
+$brand-colour-aetna: #d20962;
+$brand-colour-aetna-1: #d20962;
+$brand-colour-aetna-2: #f47721;
+$brand-colour-aetna-3: #7ac143;
+$brand-colour-aetna-4: #00a78e;
+$brand-colour-aetna-5: #00bce4;
+$brand-colour-aetna-6: #7d3f98;
+$brand-colour-aim: #ffd900;
+$brand-colour-aim-1: #ffd900;
+$brand-colour-airbnb: #fd5c63;
+$brand-colour-airbnb-1: #fd5c63;
+$brand-colour-alcon: #0079c1;
+$brand-colour-alcon-1: #0079c1;
+$brand-colour-alcon-2: #49176d;
+$brand-colour-alcon-3: #00a0af;
+$brand-colour-alcon-4: #49a942;
+$brand-colour-algolia: #050f2c;
+$brand-colour-algolia-1: #050f2c;
+$brand-colour-algolia-2: #003666;
+$brand-colour-algolia-3: #00aeff;
+$brand-colour-algolia-4: #3369e7;
+$brand-colour-algolia-5: #8e43e7;
+$brand-colour-algolia-6: #b84592;
+$brand-colour-algolia-7: #ff4f81;
+$brand-colour-algolia-8: #ff6c5f;
+$brand-colour-algolia-9: #ffc168;
+$brand-colour-algolia-10: #2dde98;
+$brand-colour-algolia-11: #1cc7d0;
+$brand-colour-alibaba: #ff6a00;
+$brand-colour-alibaba-1: #ff6a00;
+$brand-colour-alienware: #020202;
+$brand-colour-alienware-1: #020202;
+$brand-colour-alienware-2: #2ad2c9;
+$brand-colour-alienware-3: #d0e100;
+$brand-colour-alienware-4: #00f0f0;
+$brand-colour-alienware-5: #00f000;
+$brand-colour-alienware-6: #f0e000;
+$brand-colour-alienware-7: #00a0f0;
+$brand-colour-alienware-8: #9000f0;
+$brand-colour-alienware-9: #f00000;
+$brand-colour-alphabet: #ed1c24;
+$brand-colour-alphabet-1: #ed1c24;
+$brand-colour-amazon: #ff9900;
+$brand-colour-amazon-1: #ff9900;
+$brand-colour-amazon-2: #146eb4;
+$brand-colour-american-express: #002663;
+$brand-colour-american-express-1: #002663;
+$brand-colour-american-express-2: #4d4f53;
+$brand-colour-american-red-cross: #ed1b2e;
+$brand-colour-american-red-cross-1: #ed1b2e;
+$brand-colour-american-red-cross-2: #6d6e70;
+$brand-colour-american-red-cross-3: #d7d7d8;
+$brand-colour-american-red-cross-4: #b4a996;
+$brand-colour-american-red-cross-5: #ecb731;
+$brand-colour-american-red-cross-6: #8ec06c;
+$brand-colour-american-red-cross-7: #537b35;
+$brand-colour-american-red-cross-8: #c4dff6;
+$brand-colour-american-red-cross-9: #56a0d3;
+$brand-colour-american-red-cross-10: #0091cd;
+$brand-colour-american-red-cross-11: #004b79;
+$brand-colour-american-red-cross-12: #7f181b;
+$brand-colour-american-red-cross-13: #d7d7d8;
+$brand-colour-american-red-cross-14: #9f9fa3;
+$brand-colour-american-red-cross-15: #000000;
+$brand-colour-android: #a4c639;
+$brand-colour-android-1: #a4c639;
+$brand-colour-angies-list: #7fbb00;
+$brand-colour-angies-list-1: #7fbb00;
+$brand-colour-angularjs: #b52e31;
+$brand-colour-angularjs-1: #b52e31;
+$brand-colour-angularjs-2: #000000;
+$brand-colour-answers: #136ad5;
+$brand-colour-answers-1: #136ad5;
+$brand-colour-answers-2: #fb8a2e;
+$brand-colour-aol: #ff0b00;
+$brand-colour-aol-1: #ff0b00;
+$brand-colour-aol-2: #00c4ff;
+$brand-colour-arch-linux: #1793d1;
+$brand-colour-arch-linux-1: #1793d1;
+$brand-colour-arch-linux-2: #333333;
+$brand-colour-arizona-state-university-asu: #990033;
+$brand-colour-arizona-state-university-asu-1: #990033;
+$brand-colour-arizona-state-university-asu-2: #ffb310;
+$brand-colour-asana: #3be8b0;
+$brand-colour-asana-1: #3be8b0;
+$brand-colour-asana-2: #1aafd0;
+$brand-colour-asana-3: #6a67ce;
+$brand-colour-asana-4: #ffb900;
+$brand-colour-asana-5: #fc636b;
+$brand-colour-associated-press: #ff322e;
+$brand-colour-associated-press-1: #ff322e;
+$brand-colour-att: #ff7200;
+$brand-colour-att-1: #ff7200;
+$brand-colour-att-2: #fcb314;
+$brand-colour-att-3: #067ab4;
+$brand-colour-att-4: #3aa5dc;
+$brand-colour-atlanta-falcons: #000000;
+$brand-colour-atlanta-falcons-1: #000000;
+$brand-colour-atlanta-falcons-2: #a71930;
+$brand-colour-atlanta-falcons-3: #a5acaf;
+$brand-colour-atlantic-coast-conference-acc: #013ca6;
+$brand-colour-atlantic-coast-conference-acc-1: #013ca6;
+$brand-colour-atlantic-coast-conference-acc-2: #a5a9ab;
+$brand-colour-atlassian: #003366;
+$brand-colour-atlassian-1: #003366;
+$brand-colour-auth0: #16214d;
+$brand-colour-auth0-1: #16214d;
+$brand-colour-auth0-2: #44c7f4;
+$brand-colour-auth0-3: #eb5424;
+$brand-colour-auth0-4: #d0d2d3;
+$brand-colour-avira: #d40000;
+$brand-colour-avira-1: #d40000;
+$brand-colour-baidu: #de0f17;
+$brand-colour-baidu-1: #de0f17;
+$brand-colour-baidu-2: #2529d8;
+$brand-colour-bandcamp: #629aa9;
+$brand-colour-bandcamp-1: #629aa9;
+$brand-colour-barclays: #00aeef;
+$brand-colour-barclays-1: #00aeef;
+$brand-colour-barclays-2: #00395d;
+$brand-colour-barnes-noble: #2a5934;
+$brand-colour-barnes-noble-1: #2a5934;
+$brand-colour-basecamp: #b3dcff;
+$brand-colour-basecamp-1: #b3dcff;
+$brand-colour-basecamp-2: #5ecc62;
+$brand-colour-basecamp-3: #00ad45;
+$brand-colour-beats-by-dre: #e01f3d;
+$brand-colour-beats-by-dre-1: #e01f3d;
+$brand-colour-bebo: #e04646;
+$brand-colour-bebo-1: #e04646;
+$brand-colour-behance: #1769ff;
+$brand-colour-behance-1: #1769ff;
+$brand-colour-best-buy: #003b64;
+$brand-colour-best-buy-1: #003b64;
+$brand-colour-best-buy-2: #fff200;
+$brand-colour-big-cartel: #a0ac48;
+$brand-colour-big-cartel-1: #a0ac48;
+$brand-colour-big-cartel-2: #70b29c;
+$brand-colour-bing-2: #ffb900;
+$brand-colour-bing-2-1: #ffb900;
+$brand-colour-bing-2-2: #505050;
+$brand-colour-bing-2-3: #a3a3a3;
+$brand-colour-bitbucket: #205081;
+$brand-colour-bitbucket-1: #205081;
+$brand-colour-bitly: #ee6123;
+$brand-colour-bitly-1: #ee6123;
+$brand-colour-bitly-2: #61b3de;
+$brand-colour-blackberry: #005387;
+$brand-colour-blackberry-1: #005387;
+$brand-colour-blackberry-2: #8cb811;
+$brand-colour-blackberry-3: #fdb813;
+$brand-colour-blackberry-4: #88aca1;
+$brand-colour-blackberry-5: #000000;
+$brand-colour-blackberry-6: #788cb6;
+$brand-colour-blackberry-7: #a1a1a4;
+$brand-colour-blackberry-8: #8f8f8c;
+$brand-colour-blockchain: #123962;
+$brand-colour-blockchain-1: #123962;
+$brand-colour-blockchain-2: #2754ba;
+$brand-colour-blockchain-3: #00aee6;
+$brand-colour-blockchain-4: #799eb2;
+$brand-colour-blockchain-5: #b1d4e5;
+$brand-colour-blogger: #f57d00;
+$brand-colour-blogger-1: #f57d00;
+$brand-colour-boeing: #0033a1;
+$brand-colour-boeing-1: #0033a1;
+$brand-colour-boise-state-university: #09347a;
+$brand-colour-boise-state-university-1: #09347a;
+$brand-colour-boise-state-university-2: #007dc3;
+$brand-colour-boise-state-university-3: #0169a4;
+$brand-colour-boise-state-university-4: #3399cc;
+$brand-colour-boise-state-university-5: #f1632a;
+$brand-colour-boise-state-university-6: #464646;
+$brand-colour-boise-state-university-7: #b7b7b7;
+$brand-colour-boise-state-university-8: #f6f6f5;
+$brand-colour-bombardier: #8996a0;
+$brand-colour-bombardier-1: #8996a0;
+$brand-colour-booking-com: #003580;
+$brand-colour-booking-com-1: #003580;
+$brand-colour-booking-com-2: #009fe3;
+$brand-colour-booking-com-3: #feba02;
+$brand-colour-booking-com-4: #666;
+$brand-colour-booking-com-5: #f2f6fa;
+$brand-colour-bower: #ffcc2f;
+$brand-colour-bower-1: #ffcc2f;
+$brand-colour-bower-2: #ef5734;
+$brand-colour-bower-3: #00acee;
+$brand-colour-bower-4: #2baf2b;
+$brand-colour-bower-5: #543729;
+$brand-colour-bower-6: #cecece;
+$brand-colour-box: #0061d5;
+$brand-colour-box-1: #0061d5;
+$brand-colour-boy-scouts-of-america: #ce1126;
+$brand-colour-boy-scouts-of-america-1: #ce1126;
+$brand-colour-boy-scouts-of-america-2: #003f87;
+$brand-colour-british-airways: #075aaa;
+$brand-colour-british-airways-1: #075aaa;
+$brand-colour-british-airways-2: #eb2226;
+$brand-colour-british-airways-3: #01295c;
+$brand-colour-british-airways-4: #efe9e5;
+$brand-colour-british-airways-5: #aca095;
+$brand-colour-british-airways-6: #b9cfed;
+$brand-colour-british-airways-7: #a7a9ac;
+$brand-colour-bt: #d52685;
+$brand-colour-bt-1: #d52685;
+$brand-colour-bt-2: #553a99;
+$brand-colour-bt-3: #6cbc35;
+$brand-colour-bt-4: #fd9f3e;
+$brand-colour-bt-5: #08538c;
+$brand-colour-buffer: #168eea;
+$brand-colour-buffer-1: #168eea;
+$brand-colour-buffer-2: #ee4f4f;
+$brand-colour-buffer-3: #fff9ea;
+$brand-colour-buffer-4: #76b852;
+$brand-colour-buffer-5: #323b43;
+$brand-colour-buffer-6: #59626a;
+$brand-colour-buffer-7: #ced7df;
+$brand-colour-buffer-8: #eff3f6;
+$brand-colour-buffer-9: #f4f7f9;
+$brand-colour-burger-king: #ec1c24;
+$brand-colour-burger-king-1: #ec1c24;
+$brand-colour-burger-king-2: #fdbd10;
+$brand-colour-burger-king-3: #0066b2;
+$brand-colour-burger-king-4: #ed7902;
+$brand-colour-buzzfeed: #ee3322;
+$brand-colour-buzzfeed-1: #ee3322;
+$brand-colour-bynder: #00aaff;
+$brand-colour-bynder-1: #00aaff;
+$brand-colour-cadbury: #472f92;
+$brand-colour-cadbury-1: #472f92;
+$brand-colour-canon: #bc0024;
+$brand-colour-canon-1: #bc0024;
+$brand-colour-canon-2: #000000;
+$brand-colour-capital-one: #004977;
+$brand-colour-capital-one-1: #004977;
+$brand-colour-capital-one-2: #d03027;
+$brand-colour-carbonmade: #613854;
+$brand-colour-carbonmade-1: #613854;
+$brand-colour-carrefour: #00387b;
+$brand-colour-carrefour-1: #00387b;
+$brand-colour-carrefour-2: #bb1e10;
+$brand-colour-carrefour-3: #f67828;
+$brand-colour-carrefour-4: #237f52;
+$brand-colour-carrot: #388ed1;
+$brand-colour-carrot-1: #388ed1;
+$brand-colour-carrot-2: #d74e26;
+$brand-colour-carrot-3: #006837;
+$brand-colour-carrot-4: #fa9f1e;
+$brand-colour-carrot-5: #f7931e;
+$brand-colour-cartoon-network: #00aeef;
+$brand-colour-cartoon-network-1: #00aeef;
+$brand-colour-cartoon-network-2: #ed008c;
+$brand-colour-cartoon-network-3: #fff000;
+$brand-colour-cartoon-network-4: #000000;
+$brand-colour-case-mate: #84754e;
+$brand-colour-case-mate-1: #84754e;
+$brand-colour-case-mate-2: #a6192e;
+$brand-colour-case-mate-3: #decba5;
+$brand-colour-case-mate-4: #000000;
+$brand-colour-change-org: #ec2c22;
+$brand-colour-change-org-1: #ec2c22;
+$brand-colour-charity-water: #ffc907;
+$brand-colour-charity-water-1: #ffc907;
+$brand-colour-charity-water-2: #2e9df7;
+$brand-colour-charity-water-3: #231f20;
+$brand-colour-cheddar: #ff7243;
+$brand-colour-cheddar-1: #ff7243;
+$brand-colour-clemson-university: #f66733;
+$brand-colour-clemson-university-1: #f66733;
+$brand-colour-clemson-university-2: #522d80;
+$brand-colour-clemson-university-3: #d4c99e;
+$brand-colour-clemson-university-4: #685c53;
+$brand-colour-clemson-university-5: #a25016;
+$brand-colour-clemson-university-6: #562e19;
+$brand-colour-clemson-university-7: #86898c;
+$brand-colour-clemson-university-8: #f9e498;
+$brand-colour-clemson-university-9: #566127;
+$brand-colour-clemson-university-10: #3a4958;
+$brand-colour-clemson-university-11: #b5c327;
+$brand-colour-clemson-university-12: #109dc0;
+$brand-colour-coca-cola: #ed1c16;
+$brand-colour-coca-cola-1: #ed1c16;
+$brand-colour-code-school: #616f67;
+$brand-colour-code-school-1: #616f67;
+$brand-colour-code-school-2: #c68143;
+$brand-colour-codecademy: #f65a5b;
+$brand-colour-codecademy-1: #f65a5b;
+$brand-colour-codecademy-2: #204056;
+$brand-colour-codepen: #0ebeff;
+$brand-colour-codepen-1: #0ebeff;
+$brand-colour-codepen-2: #47cf73;
+$brand-colour-codepen-3: #ae63e4;
+$brand-colour-codepen-4: #fcd000;
+$brand-colour-codepen-5: #ff3c41;
+$brand-colour-codepen-6: #76daff;
+$brand-colour-connexxion: #d2ea32;
+$brand-colour-connexxion-1: #d2ea32;
+$brand-colour-connexxion-2: #016773;
+$brand-colour-continental-ag: #ffa500;
+$brand-colour-continental-ag-1: #ffa500;
+$brand-colour-continental-ag-2: #00a5dc;
+$brand-colour-continental-ag-3: #004eaf;
+$brand-colour-continental-ag-4: #2db928;
+$brand-colour-continental-ag-5: #057855;
+$brand-colour-continental-ag-6: #ff2d37;
+$brand-colour-continental-ag-7: #000000;
+$brand-colour-continental-ag-8: #737373;
+$brand-colour-continental-ag-9: #969696;
+$brand-colour-continental-ag-10: #cdcdcd;
+$brand-colour-continental-ag-11: #f0f0f0;
+$brand-colour-courtyard: #689550;
+$brand-colour-courtyard-1: #689550;
+$brand-colour-courtyard-2: #85c446;
+$brand-colour-courtyard-3: #c0de9e;
+$brand-colour-courtyard-4: #b9dca4;
+$brand-colour-craft-cms: #da5a47;
+$brand-colour-craft-cms-1: #da5a47;
+$brand-colour-creative-market: #8ba753;
+$brand-colour-creative-market-1: #8ba753;
+$brand-colour-crowne-plaza: #830051;
+$brand-colour-crowne-plaza-1: #830051;
+$brand-colour-crowne-plaza-2: #cf0072;
+$brand-colour-crowne-plaza-3: #d9e506;
+$brand-colour-crowne-plaza-4: #ff7900;
+$brand-colour-crowne-plaza-5: #00c6d7;
+$brand-colour-crowne-plaza-6: #766a65;
+$brand-colour-crunchbase: #2292a7;
+$brand-colour-crunchbase-1: #2292a7;
+$brand-colour-culvers: #005696;
+$brand-colour-culvers-1: #005696;
+$brand-colour-cunard: #1d1d1b;
+$brand-colour-cunard-1: #1d1d1b;
+$brand-colour-cunard-2: #ae9a64;
+$brand-colour-cunard-3: #e42313;
+$brand-colour-cunard-4: #8b8c8d;
+$brand-colour-cvs: #cc0000;
+$brand-colour-cvs-1: #cc0000;
+$brand-colour-daimler: #263f6a;
+$brand-colour-daimler-1: #263f6a;
+$brand-colour-daimler-2: #182b45;
+$brand-colour-daimler-3: #6b0f24;
+$brand-colour-daimler-4: #193725;
+$brand-colour-daimler-5: #606061;
+$brand-colour-debian: #a80030;
+$brand-colour-debian-1: #a80030;
+$brand-colour-delectable: #334858;
+$brand-colour-delectable-1: #334858;
+$brand-colour-delectable-2: #cd595a;
+$brand-colour-delectable-3: #94938f;
+$brand-colour-delectable-4: #a3a7a6;
+$brand-colour-delectable-5: #dbc5b0;
+$brand-colour-delectable-6: #f8dfc2;
+$brand-colour-delectable-7: #f9ebdf;
+$brand-colour-delicious: #3399ff;
+$brand-colour-delicious-1: #3399ff;
+$brand-colour-delicious-2: #222222;
+$brand-colour-delicious-3: #eeeeee;
+$brand-colour-dell: #0085c3;
+$brand-colour-dell-1: #0085c3;
+$brand-colour-dell-2: #7ab800;
+$brand-colour-dell-3: #f2af00;
+$brand-colour-dell-4: #dc5034;
+$brand-colour-dell-5: #ce1126;
+$brand-colour-dell-6: #b7295a;
+$brand-colour-dell-7: #6e2585;
+$brand-colour-dell-8: #71c6c1;
+$brand-colour-dell-9: #5482ab;
+$brand-colour-dell-10: #009bbb;
+$brand-colour-dell-11: #444444;
+$brand-colour-dell-12: #eeeeee;
+$brand-colour-delta-airlines: #c8102e;
+$brand-colour-delta-airlines-1: #c8102e;
+$brand-colour-delta-airlines-2: #862633;
+$brand-colour-delta-airlines-3: #003a70;
+$brand-colour-dental-plans: #f99104;
+$brand-colour-dental-plans-1: #f99104;
+$brand-colour-dental-plans-2: #00b7c9;
+$brand-colour-designer-news: #2d72d9;
+$brand-colour-designer-news-1: #2d72d9;
+$brand-colour-designmoo: #e64b50;
+$brand-colour-designmoo-1: #e64b50;
+$brand-colour-designmoo-2: #dbc65d;
+$brand-colour-deviantart: #05cc47;
+$brand-colour-deviantart-1: #05cc47;
+$brand-colour-deviantart-2: #4dc47d;
+$brand-colour-deviantart-3: #181a1b;
+$brand-colour-devour: #ff0000;
+$brand-colour-devour-1: #ff0000;
+$brand-colour-dewalt: #febd17;
+$brand-colour-dewalt-1: #febd17;
+$brand-colour-dhl: #ba0c2f;
+$brand-colour-dhl-1: #ba0c2f;
+$brand-colour-dhl-2: #ffcd00;
+$brand-colour-dhl-3: #c9c9c9;
+$brand-colour-diebold: #007dc3;
+$brand-colour-diebold-1: #007dc3;
+$brand-colour-diebold-2: #003f69;
+$brand-colour-diebold-3: #954010;
+$brand-colour-diebold-4: #445c6e;
+$brand-colour-diebold-5: #005238;
+$brand-colour-diebold-6: #97824b;
+$brand-colour-digg: #005be2;
+$brand-colour-digg-1: #005be2;
+$brand-colour-digg-2: #000000;
+$brand-colour-digital-ocean: #008bcf;
+$brand-colour-digital-ocean-1: #008bcf;
+$brand-colour-dindr: #fdb94e;
+$brand-colour-dindr-1: #fdb94e;
+$brand-colour-dindr-2: #f9a852;
+$brand-colour-dindr-3: #f69653;
+$brand-colour-dindr-4: #f38654;
+$brand-colour-dindr-5: #f07654;
+$brand-colour-dindr-6: #ed6856;
+$brand-colour-dindr-7: #ef5956;
+$brand-colour-dindr-8: #ee4c58;
+$brand-colour-dindr-9: #56c1ab;
+$brand-colour-dindr-10: #6a6b6a;
+$brand-colour-direct-energy: #f05d21;
+$brand-colour-direct-energy-1: #f05d21;
+$brand-colour-direct-energy-2: #2c5770;
+$brand-colour-direct-energy-3: #0f723a;
+$brand-colour-direct-energy-4: #c7c8ca;
+$brand-colour-direct-energy-5: #666666;
+$brand-colour-directv: #00a6d6;
+$brand-colour-directv-1: #00a6d6;
+$brand-colour-directv-2: #00629b;
+$brand-colour-directv-3: #003865;
+$brand-colour-discogs: #000000;
+$brand-colour-discogs-1: #000000;
+$brand-colour-discogs-2: #333333;
+$brand-colour-discogs-3: #f5df2e;
+$brand-colour-discord: #7289da;
+$brand-colour-discord-1: #7289da;
+$brand-colour-discord-2: #99aab5;
+$brand-colour-discord-3: #2c2f33;
+$brand-colour-discord-4: #23272a;
+$brand-colour-dish-network: #ec1944;
+$brand-colour-dish-network-1: #ec1944;
+$brand-colour-disqus: #2e9fff;
+$brand-colour-disqus-1: #2e9fff;
+$brand-colour-django: #092e20;
+$brand-colour-django-1: #092e20;
+$brand-colour-docker: #0db7ed;
+$brand-colour-docker-1: #0db7ed;
+$brand-colour-docker-2: #384d54;
+$brand-colour-dominos: #0b648f;
+$brand-colour-dominos-1: #0b648f;
+$brand-colour-dominos-2: #e21737;
+$brand-colour-dow: #e80033;
+$brand-colour-dow-1: #e80033;
+$brand-colour-dow-2: #fdbb30;
+$brand-colour-dow-3: #ed8b00;
+$brand-colour-dow-4: #f15d22;
+$brand-colour-dow-5: #bf0d3e;
+$brand-colour-dow-6: #910048;
+$brand-colour-dow-7: #d0006f;
+$brand-colour-dribbble: #444444;
+$brand-colour-dribbble-1: #444444;
+$brand-colour-dribbble-2: #ea4c89;
+$brand-colour-dribbble-3: #8aba56;
+$brand-colour-dribbble-4: #ff8833;
+$brand-colour-dribbble-5: #00b6e3;
+$brand-colour-dribbble-6: #9ba5a8;
+$brand-colour-dropbox: #007ee5;
+$brand-colour-dropbox-1: #007ee5;
+$brand-colour-dropbox-2: #7b8994;
+$brand-colour-dropbox-3: #47525d;
+$brand-colour-dropbox-4: #3d464d;
+$brand-colour-droplr: #5654a4;
+$brand-colour-droplr-1: #5654a4;
+$brand-colour-drupal: #0077c0;
+$brand-colour-drupal-1: #0077c0;
+$brand-colour-drupal-2: #81ceff;
+$brand-colour-drupal-3: #00598e;
+$brand-colour-dunked: #2da9d7;
+$brand-colour-dunked-1: #2da9d7;
+$brand-colour-dunked-2: #212a3e;
+$brand-colour-duolingo: #7ac70c;
+$brand-colour-duolingo-1: #7ac70c;
+$brand-colour-duolingo-2: #8ee000;
+$brand-colour-duolingo-3: #faa918;
+$brand-colour-duolingo-4: #ffc715;
+$brand-colour-duolingo-5: #d33131;
+$brand-colour-duolingo-6: #e53838;
+$brand-colour-duolingo-7: #1cb0f6;
+$brand-colour-duolingo-8: #14d4f4;
+$brand-colour-duolingo-9: #8549ba;
+$brand-colour-duolingo-10: #a560e8;
+$brand-colour-duolingo-11: #4c4c4c;
+$brand-colour-duolingo-12: #6f6f6f;
+$brand-colour-duolingo-13: #cfcfcf;
+$brand-colour-duolingo-14: #f0f0f0;
+$brand-colour-duolingo-15: #bff199;
+$brand-colour-duolingo-16: #f7c8c9;
+$brand-colour-dwolla: #ff7404;
+$brand-colour-dwolla-1: #ff7404;
+$brand-colour-etrade: #6633cc;
+$brand-colour-etrade-1: #6633cc;
+$brand-colour-etrade-2: #99cc00;
+$brand-colour-easy-jet: #ff6600;
+$brand-colour-easy-jet-1: #ff6600;
+$brand-colour-easy-jet-2: #000000;
+$brand-colour-easy-jet-3: #58595b;
+$brand-colour-ebay: #e53238;
+$brand-colour-ebay-1: #e53238;
+$brand-colour-ebay-2: #0064d2;
+$brand-colour-ebay-3: #f5af02;
+$brand-colour-ebay-4: #86b817;
+$brand-colour-el-al: #131137;
+$brand-colour-el-al-1: #131137;
+$brand-colour-el-al-2: #918978;
+$brand-colour-elance: #0d69af;
+$brand-colour-elance-1: #0d69af;
+$brand-colour-ello: #000000;
+$brand-colour-ello-1: #000000;
+$brand-colour-ember: #f23819;
+$brand-colour-ember-1: #f23819;
+$brand-colour-emma: #314855;
+$brand-colour-emma-1: #314855;
+$brand-colour-emma-2: #5cc3e8;
+$brand-colour-emma-3: #ffdb00;
+$brand-colour-emma-4: #79ceb8;
+$brand-colour-emma-5: #e95f5c;
+$brand-colour-engadget: #40b3ff;
+$brand-colour-engadget-1: #40b3ff;
+$brand-colour-envato: #82b541;
+$brand-colour-envato-1: #82b541;
+$brand-colour-epictions: #ff2052;
+$brand-colour-epictions-1: #ff2052;
+$brand-colour-epictions-2: #e6e6e6;
+$brand-colour-epictions-3: #404040;
+$brand-colour-epictions-4: #01b5dd;
+$brand-colour-epictions-5: #b0db64;
+$brand-colour-ericsson: #002561;
+$brand-colour-ericsson-1: #002561;
+$brand-colour-esl: #0d9ddb;
+$brand-colour-esl-1: #0d9ddb;
+$brand-colour-esl-2: #48b8e7;
+$brand-colour-esl-3: #efecea;
+$brand-colour-esl-4: #2c2b2b;
+$brand-colour-espn: #ff0033;
+$brand-colour-espn-1: #ff0033;
+$brand-colour-etsy: #d5641c;
+$brand-colour-etsy-1: #d5641c;
+$brand-colour-evaneos: #33cc99;
+$brand-colour-evaneos-1: #33cc99;
+$brand-colour-evaneos-2: #4ba6f5;
+$brand-colour-evaneos-3: #fdca30;
+$brand-colour-evaneos-4: #f79400;
+$brand-colour-evaneos-5: #f34235;
+$brand-colour-eventbrite: #ff8000;
+$brand-colour-eventbrite-1: #ff8000;
+$brand-colour-evernote: #2dbe60;
+$brand-colour-evernote-1: #2dbe60;
+$brand-colour-evernote-2: #7b868a;
+$brand-colour-evernote-3: #2facb2;
+$brand-colour-evernote-4: #166a8f;
+$brand-colour-evernote-5: #3b4446;
+$brand-colour-evernote-6: #525e61;
+$brand-colour-evernote-7: #7b868a;
+$brand-colour-evernote-8: #aeb6b8;
+$brand-colour-evernote-9: #d7dcdd;
+$brand-colour-evernote-10: #eff2f3;
+$brand-colour-execucar: #da9a39;
+$brand-colour-execucar-1: #da9a39;
+$brand-colour-execucar-2: #000000;
+$brand-colour-fab-com: #dd0017;
+$brand-colour-fab-com-1: #dd0017;
+$brand-colour-fab-com-2: #000000;
+$brand-colour-facebook: #3b5998;
+$brand-colour-facebook-1: #3b5998;
+$brand-colour-fairfield-inn-suites: #6caddf;
+$brand-colour-fairfield-inn-suites-1: #6caddf;
+$brand-colour-fairfield-inn-suites-2: #b06010;
+$brand-colour-fairfield-inn-suites-3: #004990;
+$brand-colour-fairfield-inn-suites-4: #b50938;
+$brand-colour-fairmont: #a6a685;
+$brand-colour-fairmont-1: #a6a685;
+$brand-colour-fairmont-2: #000000;
+$brand-colour-famo-us: #fa5c4f;
+$brand-colour-famo-us-1: #fa5c4f;
+$brand-colour-famo-us-2: #333333;
+$brand-colour-fancy: #3098dc;
+$brand-colour-fancy-1: #3098dc;
+$brand-colour-fancy-2: #494e58;
+$brand-colour-fedex: #660099;
+$brand-colour-fedex-1: #660099;
+$brand-colour-fedex-2: #ff6600;
+$brand-colour-fedex-3: #00cc00;
+$brand-colour-fedex-4: #0099cc;
+$brand-colour-fedex-5: #ff0033;
+$brand-colour-fedex-6: #ffcc00;
+$brand-colour-fedex-7: #999999;
+$brand-colour-feedly: #2bb24c;
+$brand-colour-feedly-1: #2bb24c;
+$brand-colour-ferrari: #e32119;
+$brand-colour-ferrari-1: #e32119;
+$brand-colour-fiat: #96172e;
+$brand-colour-fiat-1: #96172e;
+$brand-colour-fiat-2: #6d2d41;
+$brand-colour-firefox: #e66000;
+$brand-colour-firefox-1: #e66000;
+$brand-colour-firefox-2: #ff9500;
+$brand-colour-firefox-3: #ffcb00;
+$brand-colour-firefox-4: #00539f;
+$brand-colour-firefox-5: #0095dd;
+$brand-colour-firefox-6: #331e54;
+$brand-colour-firefox-7: #002147;
+$brand-colour-fiskars: #ff8e00;
+$brand-colour-fiskars-1: #ff8e00;
+$brand-colour-fiskars-2: #000000;
+$brand-colour-fiskars-3: #955214;
+$brand-colour-fiskars-4: #55601c;
+$brand-colour-fiskars-5: #005172;
+$brand-colour-fitbit: #4cc2c4;
+$brand-colour-fitbit-1: #4cc2c4;
+$brand-colour-fitbit-2: #f54785;
+$brand-colour-fitbit-3: #343434;
+$brand-colour-five-guys: #ed174f;
+$brand-colour-five-guys-1: #ed174f;
+$brand-colour-five-guys-2: #fbb040;
+$brand-colour-five-guys-3: #efc402;
+$brand-colour-five-guys-4: #d4891c;
+$brand-colour-flattr: #f67c1a;
+$brand-colour-flattr-1: #f67c1a;
+$brand-colour-flattr-2: #338d11;
+$brand-colour-flavors-me: #f10087;
+$brand-colour-flavors-me-1: #f10087;
+$brand-colour-flavors-me-2: #009ae7;
+$brand-colour-flickr: #0063dc;
+$brand-colour-flickr-1: #0063dc;
+$brand-colour-flickr-2: #ff0084;
+$brand-colour-flipboard: #e12828;
+$brand-colour-flipboard-1: #e12828;
+$brand-colour-flixster: #2971b2;
+$brand-colour-flixster-1: #2971b2;
+$brand-colour-follr: #4dc9f6;
+$brand-colour-follr-1: #4dc9f6;
+$brand-colour-follr-2: #f67019;
+$brand-colour-follr-3: #f53794;
+$brand-colour-follr-4: #537bc4;
+$brand-colour-follr-5: #acc236;
+$brand-colour-ford: #1c396d;
+$brand-colour-ford-1: #1c396d;
+$brand-colour-4ormat: #ee3440;
+$brand-colour-4ormat-1: #ee3440;
+$brand-colour-forrst: #5b9a68;
+$brand-colour-forrst-1: #5b9a68;
+$brand-colour-foursquare: #f94877;
+$brand-colour-foursquare-1: #f94877;
+$brand-colour-foursquare-2: #0732a2;
+$brand-colour-foursquare-3: #2d5be3;
+$brand-colour-freecodecamp: #006400;
+$brand-colour-freecodecamp-1: #006400;
+$brand-colour-freecodecamp-2: #ff9c2a;
+$brand-colour-freecodecamp-3: #ff4025;
+$brand-colour-freecodecamp-4: #3949ab;
+$brand-colour-freecodecamp-5: #efefef;
+$brand-colour-friend2friend: #0f99d6;
+$brand-colour-friend2friend-1: #0f99d6;
+$brand-colour-gallaudet-university: #00457c;
+$brand-colour-gallaudet-university-1: #00457c;
+$brand-colour-gallaudet-university-2: #e8d4a2;
+$brand-colour-gannett: #009bff;
+$brand-colour-gannett-1: #009bff;
+$brand-colour-garmin: #007cc3;
+$brand-colour-garmin-1: #007cc3;
+$brand-colour-garuda: #484848;
+$brand-colour-garuda-1: #484848;
+$brand-colour-garuda-2: #002561;
+$brand-colour-garuda-3: #2f6f7e;
+$brand-colour-generatepress: #1b212b;
+$brand-colour-generatepress-1: #1b212b;
+$brand-colour-generatepress-2: #1e72bd;
+$brand-colour-generatepress-3: #efefef;
+$brand-colour-geocaching: #4a742c;
+$brand-colour-geocaching-1: #4a742c;
+$brand-colour-georgia-southern-university: #041e42;
+$brand-colour-georgia-southern-university-1: #041e42;
+$brand-colour-georgia-southern-university-2: #a99260;
+$brand-colour-ghost: #212425;
+$brand-colour-ghost-1: #212425;
+$brand-colour-ghost-2: #718087;
+$brand-colour-ghost-3: #5ba4e5;
+$brand-colour-ghost-4: #9fbb58;
+$brand-colour-ghost-5: #e9e8dd;
+$brand-colour-gibson: #000000;
+$brand-colour-gibson-1: #000000;
+$brand-colour-gibson-2: #436f8e;
+$brand-colour-gibson-3: #887d59;
+$brand-colour-gibson-4: #8f9696;
+$brand-colour-gimmebar: #d6156c;
+$brand-colour-gimmebar-1: #d6156c;
+$brand-colour-github: #4078c0;
+$brand-colour-github-1: #4078c0;
+$brand-colour-github-2: #6cc644;
+$brand-colour-github-3: #bd2c00;
+$brand-colour-github-4: #c9510c;
+$brand-colour-github-5: #6e5494;
+$brand-colour-github-6: #fafafa;
+$brand-colour-github-7: #f5f5f5;
+$brand-colour-github-8: #333;
+$brand-colour-gitlab: #fca326;
+$brand-colour-gitlab-1: #fca326;
+$brand-colour-gitlab-2: #fc6d26;
+$brand-colour-gitlab-3: #e24329;
+$brand-colour-gitlab-4: #554488;
+$brand-colour-gitter: #46bc99;
+$brand-colour-gitter-1: #46bc99;
+$brand-colour-gitter-2: #f68d42;
+$brand-colour-gitter-3: #ed1965;
+$brand-colour-gitter-4: #f2f0ed;
+$brand-colour-gitter-5: #3a3133;
+$brand-colour-gittip: #663300;
+$brand-colour-gittip-1: #663300;
+$brand-colour-gittip-2: #339966;
+$brand-colour-godaddy: #7db701;
+$brand-colour-godaddy-1: #7db701;
+$brand-colour-godaddy-2: #ff8a00;
+$brand-colour-gogo: #e80029;
+$brand-colour-gogo-1: #e80029;
+$brand-colour-gogo-2: #40b4e5;
+$brand-colour-gogo-3: #7c868d;
+$brand-colour-goodreads: #553b08;
+$brand-colour-goodreads-1: #553b08;
+$brand-colour-google: #4285f4;
+$brand-colour-google-1: #4285f4;
+$brand-colour-google-2: #34a853;
+$brand-colour-google-3: #fbbc05;
+$brand-colour-google-4: #ea4335;
+$brand-colour-google-duo: #4285f4;
+$brand-colour-google-duo-1: #4285f4;
+$brand-colour-google-plus: #dd4b39;
+$brand-colour-google-plus-1: #dd4b39;
+$brand-colour-gravatar: #1e8cbe;
+$brand-colour-gravatar-1: #1e8cbe;
+$brand-colour-gravit: #e30061;
+$brand-colour-gravit-1: #e30061;
+$brand-colour-gravit-2: #d5df00;
+$brand-colour-gravit-3: #475258;
+$brand-colour-groupon: #82b548;
+$brand-colour-groupon-1: #82b548;
+$brand-colour-grunt: #fba919;
+$brand-colour-grunt-1: #fba919;
+$brand-colour-grunt-2: #463014;
+$brand-colour-gumtree: #72ef36;
+$brand-colour-gumtree-1: #72ef36;
+$brand-colour-gumtree-2: #3b3141;
+$brand-colour-gumtree-3: #f0ece6;
+$brand-colour-gvb: #0863b5;
+$brand-colour-gvb-1: #0863b5;
+$brand-colour-gvb-2: #fec600;
+$brand-colour-gvb-3: #f39100;
+$brand-colour-gvb-4: #e3001f;
+$brand-colour-gvb-5: #e50064;
+$brand-colour-gvb-6: #954a97;
+$brand-colour-gvb-7: #009ee3;
+$brand-colour-gvb-8: #13a538;
+$brand-colour-hacker-news: #ff6600;
+$brand-colour-hacker-news-1: #ff6600;
+$brand-colour-hangouts: #0f9d58;
+$brand-colour-hangouts-1: #0f9d58;
+$brand-colour-happn: #0087b4;
+$brand-colour-happn-1: #0087b4;
+$brand-colour-heineken: #00a100;
+$brand-colour-heineken-1: #00a100;
+$brand-colour-heineken-2: #ff2b00;
+$brand-colour-heineken-3: #999999;
+$brand-colour-hellowallet: #0093d0;
+$brand-colour-hellowallet-1: #0093d0;
+$brand-colour-help-scout: #3197d6;
+$brand-colour-help-scout-1: #3197d6;
+$brand-colour-help-scout-2: #394956;
+$brand-colour-help-scout-3: #d6dde3;
+$brand-colour-heroku: #c9c3e6;
+$brand-colour-heroku-1: #c9c3e6;
+$brand-colour-heroku-2: #6762a6;
+$brand-colour-hewlett-packard-enterprise: #00b388;
+$brand-colour-hewlett-packard-enterprise-1: #00b388;
+$brand-colour-hewlett-packard-enterprise-2: #425563;
+$brand-colour-hi5: #fd9827;
+$brand-colour-hi5-1: #fd9827;
+$brand-colour-highfive: #a26eea;
+$brand-colour-highfive-1: #a26eea;
+$brand-colour-highfive-2: #f7afff;
+$brand-colour-highfive-3: #5d70ea;
+$brand-colour-highfive-4: #46b7fd;
+$brand-colour-home-depot: #f96305;
+$brand-colour-home-depot-1: #f96305;
+$brand-colour-homeaway: #2a6ebb;
+$brand-colour-homeaway-1: #2a6ebb;
+$brand-colour-homeaway-2: #ff8a00;
+$brand-colour-hootsuite: #003265;
+$brand-colour-hootsuite-1: #003265;
+$brand-colour-hootsuite-2: #f7e8d5;
+$brand-colour-hootsuite-3: #ffbd0a;
+$brand-colour-hootsuite-4: #c6af92;
+$brand-colour-hootsuite-5: #71685f;
+$brand-colour-hootsuite-6: #54493f;
+$brand-colour-hootsuite-7: #38322d;
+$brand-colour-houzz: #7ac142;
+$brand-colour-houzz-1: #7ac142;
+$brand-colour-houzz-2: #000000;
+$brand-colour-hp: #0096d6;
+$brand-colour-hp-1: #0096d6;
+$brand-colour-hp-2: #d7410b;
+$brand-colour-hsbc: #db0011;
+$brand-colour-hsbc-1: #db0011;
+$brand-colour-html5: #e34f26;
+$brand-colour-html5-1: #e34f26;
+$brand-colour-hulu: #66aa33;
+$brand-colour-hulu-1: #66aa33;
+$brand-colour-hulu-2: #99cc33;
+$brand-colour-hulu-3: #41811e;
+$brand-colour-hulu-4: #222222;
+$brand-colour-hulu-5: #666666;
+$brand-colour-hulu-6: #e8e8e8;
+$brand-colour-hyatt: #6d6e71;
+$brand-colour-hyatt-1: #6d6e71;
+$brand-colour-hyatt-2: #bf5b20;
+$brand-colour-hyatt-3: #006e96;
+$brand-colour-hyatt-4: #8c8700;
+$brand-colour-hyatt-5: #ad5f7d;
+$brand-colour-hyatt-6: #d79100;
+$brand-colour-ibm: #006699;
+$brand-colour-ibm-1: #006699;
+$brand-colour-icons8: #32c24d;
+$brand-colour-icons8-1: #32c24d;
+$brand-colour-ideal: #cc0066;
+$brand-colour-ideal-1: #cc0066;
+$brand-colour-ideal-2: #79afc1;
+$brand-colour-ideal-3: #000000;
+$brand-colour-identi-ca: #789240;
+$brand-colour-identi-ca-1: #789240;
+$brand-colour-identi-ca-2: #7d0100;
+$brand-colour-identi-ca-3: #8baaff;
+$brand-colour-ifttt: #33ccff;
+$brand-colour-ifttt-1: #33ccff;
+$brand-colour-ifttt-2: #ff4400;
+$brand-colour-ifttt-3: #000000;
+$brand-colour-iheartradio: #c6002b;
+$brand-colour-iheartradio-1: #c6002b;
+$brand-colour-ikea: #ffcc00;
+$brand-colour-ikea-1: #ffcc00;
+$brand-colour-ikea-2: #003399;
+$brand-colour-imdb: #f5de50;
+$brand-colour-imdb-1: #f5de50;
+$brand-colour-imgur: #85bf25;
+$brand-colour-imgur-1: #85bf25;
+$brand-colour-indeed: #2164f4;
+$brand-colour-indeed-1: #2164f4;
+$brand-colour-indeed-2: #ff6600;
+$brand-colour-indiegogo: #eb1478;
+$brand-colour-indiegogo-1: #eb1478;
+$brand-colour-instacart: #60ab59;
+$brand-colour-instacart-1: #60ab59;
+$brand-colour-instagram: #405de6;
+$brand-colour-instagram-1: #405de6;
+$brand-colour-instagram-2: #5851db;
+$brand-colour-instagram-3: #833ab4;
+$brand-colour-instagram-4: #c13584;
+$brand-colour-instagram-5: #e1306c;
+$brand-colour-instagram-6: #fd1d1d;
+$brand-colour-instagram-7: #f56040;
+$brand-colour-instagram-8: #f77737;
+$brand-colour-instagram-9: #fcaf45;
+$brand-colour-instagram-10: #ffdc80;
+$brand-colour-instapage: #0d1a2b;
+$brand-colour-instapage-1: #0d1a2b;
+$brand-colour-instapage-2: #1565c0;
+$brand-colour-instapage-3: #1e88e5;
+$brand-colour-instapage-4: #bcced6;
+$brand-colour-instapage-5: #f2f7f9;
+$brand-colour-instapaper: #000000;
+$brand-colour-instapaper-1: #000000;
+$brand-colour-instapaper-2: #428bca;
+$brand-colour-intel: #0f7dc2;
+$brand-colour-intel-1: #0f7dc2;
+$brand-colour-intuit: #365ebf;
+$brand-colour-intuit-1: #365ebf;
+$brand-colour-ios: #5fc9f8;
+$brand-colour-ios-1: #5fc9f8;
+$brand-colour-ios-2: #fecb2e;
+$brand-colour-ios-3: #fd9426;
+$brand-colour-ios-4: #fc3158;
+$brand-colour-ios-5: #147efb;
+$brand-colour-ios-6: #53d769;
+$brand-colour-ios-7: #fc3d39;
+$brand-colour-ios-8: #8e8e93;
+$brand-colour-istock: #fe423f;
+$brand-colour-istock-1: #fe423f;
+$brand-colour-istock-2: #02a388;
+$brand-colour-istock-3: #0c0d0d;
+$brand-colour-istock-4: #e8eded;
+$brand-colour-istock-5: #dce1e1;
+$brand-colour-jawbone: #000000;
+$brand-colour-jawbone-1: #000000;
+$brand-colour-jbl: #ff6600;
+$brand-colour-jbl-1: #ff6600;
+$brand-colour-joomla: #f44321;
+$brand-colour-joomla-1: #f44321;
+$brand-colour-joomla-2: #5091cd;
+$brand-colour-joomla-3: #f9a541;
+$brand-colour-joomla-4: #7ac143;
+$brand-colour-joyent: #ff6600;
+$brand-colour-joyent-1: #ff6600;
+$brand-colour-jquery: #0769ad;
+$brand-colour-jquery-1: #0769ad;
+$brand-colour-jquery-2: #7acef4;
+$brand-colour-kaspersky-lab: #006c54;
+$brand-colour-kaspersky-lab-1: #006c54;
+$brand-colour-kaspersky-lab-2: #d52a1d;
+$brand-colour-keeeb: #00a9c0;
+$brand-colour-keeeb-1: #00a9c0;
+$brand-colour-khan-academy: #9cb443;
+$brand-colour-khan-academy-1: #9cb443;
+$brand-colour-khan-academy-2: #242f3a;
+$brand-colour-kia: #c21a30;
+$brand-colour-kia-1: #c21a30;
+$brand-colour-kickstarter: #2bde73;
+$brand-colour-kickstarter-1: #2bde73;
+$brand-colour-kickstarter-2: #0f2105;
+$brand-colour-kik: #82bc23;
+$brand-colour-kik-1: #82bc23;
+$brand-colour-kik-2: #3db4e7;
+$brand-colour-kippt: #d51007;
+$brand-colour-kippt-1: #d51007;
+$brand-colour-kitkat: #d70021;
+$brand-colour-kitkat-1: #d70021;
+$brand-colour-kiva: #63a541;
+$brand-colour-kiva-1: #63a541;
+$brand-colour-kiva-2: #236133;
+$brand-colour-kiva-3: #26b6e8;
+$brand-colour-kiwipay: #00b0df;
+$brand-colour-kiwipay-1: #00b0df;
+$brand-colour-klm: #00a1e4;
+$brand-colour-klm-1: #00a1e4;
+$brand-colour-lamborghini: #ddb321;
+$brand-colour-lamborghini-1: #ddb321;
+$brand-colour-laravel: #f55247;
+$brand-colour-laravel-1: #f55247;
+$brand-colour-lastfm: #d51007;
+$brand-colour-lastfm-1: #d51007;
+$brand-colour-lastpass: #d32d27;
+$brand-colour-lastpass-1: #d32d27;
+$brand-colour-lastpass-2: #af0809;
+$brand-colour-lastpass-3: #000000;
+$brand-colour-lastpass-4: #0c2340;
+$brand-colour-lastpass-5: #00a3e0;
+$brand-colour-lastpass-6: #ede04b;
+$brand-colour-lastpass-7: #333f48;
+$brand-colour-lastpass-8: #d9e1e2;
+$brand-colour-lego: #f6ec35;
+$brand-colour-lego-1: #f6ec35;
+$brand-colour-lego-2: #d11013;
+$brand-colour-lego-3: #000000;
+$brand-colour-line: #00c300;
+$brand-colour-line-1: #00c300;
+$brand-colour-linkedin: #0077b5;
+$brand-colour-linkedin-1: #0077b5;
+$brand-colour-linkedin-2: #000000;
+$brand-colour-linkedin-3: #313335;
+$brand-colour-linkedin-4: #86888a;
+$brand-colour-linkedin-5: #caccce;
+$brand-colour-linkedin-6: #00a0dc;
+$brand-colour-linkedin-7: #8d6cab;
+$brand-colour-linkedin-8: #dd5143;
+$brand-colour-linkedin-9: #e68523;
+$brand-colour-livestream: #cf202e;
+$brand-colour-livestream-1: #cf202e;
+$brand-colour-livestream-2: #232121;
+$brand-colour-livestream-3: #f78822;
+$brand-colour-livestream-4: #f6db35;
+$brand-colour-livestream-5: #6dc067;
+$brand-colour-livestream-6: #4185be;
+$brand-colour-livestream-7: #8f499c;
+$brand-colour-lloyds: #d81f2a;
+$brand-colour-lloyds-1: #d81f2a;
+$brand-colour-lloyds-2: #ff9900;
+$brand-colour-lloyds-3: #e0d86e;
+$brand-colour-lloyds-4: #9ea900;
+$brand-colour-lloyds-5: #6ec9e0;
+$brand-colour-lloyds-6: #007ea3;
+$brand-colour-lloyds-7: #9e4770;
+$brand-colour-lloyds-8: #631d76;
+$brand-colour-lloyds-9: #1e1e1e;
+$brand-colour-lomo: #eb0028;
+$brand-colour-lomo-1: #eb0028;
+$brand-colour-lomo-2: #00a0df;
+$brand-colour-london-underground: #000099;
+$brand-colour-london-underground-1: #000099;
+$brand-colour-london-underground-2: #cc3333;
+$brand-colour-lumo: #576396;
+$brand-colour-lumo-1: #576396;
+$brand-colour-lyft: #ff00bf;
+$brand-colour-lyft-1: #ff00bf;
+$brand-colour-lyft-2: #352384;
+$brand-colour-lyft-3: #333447;
+$brand-colour-lyft-4: #f3f3f5;
+$brand-colour-magento: #f46f25;
+$brand-colour-magento-1: #f46f25;
+$brand-colour-mail-ru: #168de2;
+$brand-colour-mail-ru-1: #168de2;
+$brand-colour-mail-ru-2: #ffa930;
+$brand-colour-mailchimp: #239ab9;
+$brand-colour-mailchimp-1: #239ab9;
+$brand-colour-mailchimp-2: #52bad5;
+$brand-colour-mailchimp-3: #6dc5dc;
+$brand-colour-mailchimp-4: #373737;
+$brand-colour-mailchimp-5: #5d5c5d;
+$brand-colour-mailchimp-6: #b7b7b7;
+$brand-colour-mapbox: #3bb2d0;
+$brand-colour-mapbox-1: #3bb2d0;
+$brand-colour-mapbox-2: #3887be;
+$brand-colour-mapbox-3: #8a8acb;
+$brand-colour-mapbox-4: #56b881;
+$brand-colour-mapbox-5: #50667f;
+$brand-colour-mapbox-6: #41afa5;
+$brand-colour-mapbox-7: #f9886c;
+$brand-colour-mapbox-8: #e55e5e;
+$brand-colour-mapbox-9: #ed6498;
+$brand-colour-mapbox-10: #fbb03b;
+$brand-colour-mapbox-11: #142736;
+$brand-colour-mapbox-12: #28353d;
+$brand-colour-mapbox-13: #222b30;
+$brand-colour-massy-group: #004a77;
+$brand-colour-massy-group-1: #004a77;
+$brand-colour-massy-group-2: #00adee;
+$brand-colour-massy-group-3: #ff8100;
+$brand-colour-massy-group-4: #ffd200;
+$brand-colour-mastercard: #cc0000;
+$brand-colour-mastercard-1: #cc0000;
+$brand-colour-mastercard-2: #ff9900;
+$brand-colour-mastercard-3: #000066;
+$brand-colour-mcdonalds: #bf0c0c;
+$brand-colour-mcdonalds-1: #bf0c0c;
+$brand-colour-mcdonalds-2: #e76a05;
+$brand-colour-mcdonalds-3: #ffc600;
+$brand-colour-mcdonalds-4: #47bc00;
+$brand-colour-mcdonalds-5: #05007b;
+$brand-colour-mcdonalds-6: #9748a8;
+$brand-colour-mcdonalds-7: #2bb3f3;
+$brand-colour-mcdonalds-8: #865200;
+$brand-colour-medium: #00ab6c;
+$brand-colour-medium-1: #00ab6c;
+$brand-colour-meetup: #e0393e;
+$brand-colour-meetup-1: #e0393e;
+$brand-colour-meijer: #0a4d8c;
+$brand-colour-meijer-1: #0a4d8c;
+$brand-colour-meijer-2: #dd1321;
+$brand-colour-mercadolibre-com: #ffe600;
+$brand-colour-mercadolibre-com-1: #ffe600;
+$brand-colour-mercadolibre-com-2: #2d3277;
+$brand-colour-messenger: #0084ff;
+$brand-colour-messenger-1: #0084ff;
+$brand-colour-microsoft: #f65314;
+$brand-colour-microsoft-1: #f65314;
+$brand-colour-microsoft-2: #7cbb00;
+$brand-colour-microsoft-3: #00a1f1;
+$brand-colour-microsoft-4: #ffbb00;
+$brand-colour-microsoft-band: #783bd2;
+$brand-colour-microsoft-band-1: #783bd2;
+$brand-colour-microsoft-office: #ea3e23;
+$brand-colour-microsoft-office-1: #ea3e23;
+$brand-colour-milligram: #9b4dca;
+$brand-colour-milligram-1: #9b4dca;
+$brand-colour-milligram-2: #f4f5f6;
+$brand-colour-milligram-3: #606c76;
+$brand-colour-mixcloud: #52aad8;
+$brand-colour-mixcloud-1: #52aad8;
+$brand-colour-mixcloud-2: #273a4b;
+$brand-colour-mixcloud-3: #1d2d3b;
+$brand-colour-mixpanel: #a086d3;
+$brand-colour-mixpanel-1: #a086d3;
+$brand-colour-mobilink: #ee1d23;
+$brand-colour-mobilink-1: #ee1d23;
+$brand-colour-mollie: #c6d6df;
+$brand-colour-mollie-1: #c6d6df;
+$brand-colour-mollie-2: #ec4534;
+$brand-colour-mongodb: #589636;
+$brand-colour-mongodb-1: #589636;
+$brand-colour-montclair-state-university: #ce1141;
+$brand-colour-montclair-state-university-1: #ce1141;
+$brand-colour-montclair-state-university-2: #eeb111;
+$brand-colour-montclair-state-university-3: #e87d1e;
+$brand-colour-montclair-state-university-4: #94ce08;
+$brand-colour-montclair-state-university-5: #00386b;
+$brand-colour-montclair-state-university-6: #969491;
+$brand-colour-motorola: #5c92fa;
+$brand-colour-motorola-1: #5c92fa;
+$brand-colour-mozilla: #c13832;
+$brand-colour-mozilla-1: #c13832;
+$brand-colour-mozilla-2: #d7d3c8;
+$brand-colour-mozilla-3: #4d4e53;
+$brand-colour-musixmatch: #ff6633;
+$brand-colour-musixmatch-1: #ff6633;
+$brand-colour-musixmatch-2: #fa1d42;
+$brand-colour-muut: #1fadc5;
+$brand-colour-muut-1: #1fadc5;
+$brand-colour-muut-2: #ff8000;
+$brand-colour-myspace: #000000;
+$brand-colour-myspace-1: #000000;
+$brand-colour-mysql: #00758f;
+$brand-colour-mysql-1: #00758f;
+$brand-colour-mysql-2: #f29111;
+$brand-colour-nasa: #fc3d21;
+$brand-colour-nasa-1: #fc3d21;
+$brand-colour-nasa-2: #0b3d91;
+$brand-colour-national-geographic: #ffcc00;
+$brand-colour-national-geographic-1: #ffcc00;
+$brand-colour-national-geographic-2: #000000;
+$brand-colour-nationwide: #0071bf;
+$brand-colour-nationwide-1: #0071bf;
+$brand-colour-nationwide-2: #000000;
+$brand-colour-nbc: #e1ac26;
+$brand-colour-nbc-1: #e1ac26;
+$brand-colour-nbc-2: #dc380f;
+$brand-colour-nbc-3: #9f0812;
+$brand-colour-nbc-4: #6347b2;
+$brand-colour-nbc-5: #368dd5;
+$brand-colour-nbc-6: #70af1e;
+$brand-colour-nbc-7: #7e887a;
+$brand-colour-nc-state-university: #cc0000;
+$brand-colour-nc-state-university-1: #cc0000;
+$brand-colour-nc-state-university-2: #000000;
+$brand-colour-nest: #00afd8;
+$brand-colour-nest-1: #00afd8;
+$brand-colour-nest-2: #7b858e;
+$brand-colour-netflix: #e50914;
+$brand-colour-netflix-1: #e50914;
+$brand-colour-netflix-2: #221f1f;
+$brand-colour-netflix-3: #f5f5f1;
+$brand-colour-netvibes: #39bd00;
+$brand-colour-netvibes-1: #39bd00;
+$brand-colour-new-balance: #ce2724;
+$brand-colour-new-balance-1: #ce2724;
+$brand-colour-new-balance-2: #f3ec19;
+$brand-colour-new-balance-3: #207c88;
+$brand-colour-new-balance-4: #aac1bf;
+$brand-colour-new-balance-5: #e8e9d7;
+$brand-colour-new-balance-6: #4c4d4f;
+$brand-colour-new-balance-7: #231f20;
+$brand-colour-new-york-post: #cc3333;
+$brand-colour-new-york-post-1: #cc3333;
+$brand-colour-new-york-post-2: #2a2a2a;
+$brand-colour-nexar: #fbb040;
+$brand-colour-nexar-1: #fbb040;
+$brand-colour-nexar-2: #44355b;
+$brand-colour-nexar-3: #31263e;
+$brand-colour-nexar-4: #ee5622;
+$brand-colour-nexar-5: #221e22;
+$brand-colour-nextdoor: #19975d;
+$brand-colour-nextdoor-1: #19975d;
+$brand-colour-nike-football: #504847;
+$brand-colour-nike-football-1: #504847;
+$brand-colour-nike-football-2: #27a770;
+$brand-colour-nikefuel: #4bad31;
+$brand-colour-nikefuel-1: #4bad31;
+$brand-colour-nikefuel-2: #f5dc00;
+$brand-colour-nikefuel-3: #e95814;
+$brand-colour-nikefuel-4: #e2142d;
+$brand-colour-ning: #75af42;
+$brand-colour-ning-1: #75af42;
+$brand-colour-node-js: #215732;
+$brand-colour-node-js-1: #215732;
+$brand-colour-node-js-2: #6cc24a;
+$brand-colour-node-js-3: #44883e;
+$brand-colour-node-js-4: #333333;
+$brand-colour-nokia: #124191;
+$brand-colour-nokia-1: #124191;
+$brand-colour-norsan-media: #0390d8;
+$brand-colour-norsan-media-1: #0390d8;
+$brand-colour-northern-arizona-university: #003466;
+$brand-colour-northern-arizona-university-1: #003466;
+$brand-colour-northern-arizona-university-2: #557665;
+$brand-colour-novartis: #765438;
+$brand-colour-novartis-1: #765438;
+$brand-colour-novartis-2: #a13323;
+$brand-colour-novartis-3: #e65124;
+$brand-colour-novartis-4: #ec7f22;
+$brand-colour-novartis-5: #f8b22a;
+$brand-colour-novartis-6: #ffd430;
+$brand-colour-npm: #cb3837;
+$brand-colour-npm-1: #cb3837;
+$brand-colour-ns: #ffc61e;
+$brand-colour-ns-1: #ffc61e;
+$brand-colour-ns-2: #00337f;
+$brand-colour-nvidia: #76b900;
+$brand-colour-nvidia-1: #76b900;
+$brand-colour-odnoklassniki: #ed812b;
+$brand-colour-odnoklassniki-1: #ed812b;
+$brand-colour-office-sway: #008272;
+$brand-colour-office-sway-1: #008272;
+$brand-colour-olark: #8d989a;
+$brand-colour-olark-1: #8d989a;
+$brand-colour-olark-2: #744da8;
+$brand-colour-olark-3: #1fb3e0;
+$brand-colour-olark-4: #49c219;
+$brand-colour-olark-5: #f4dc2a;
+$brand-colour-olark-6: #eeb417;
+$brand-colour-olark-7: #d65129;
+$brand-colour-olympus: #08107b;
+$brand-colour-olympus-1: #08107b;
+$brand-colour-olympus-2: #dfb226;
+$brand-colour-olympus-3: #777777;
+$brand-colour-onshape: #1b5faa;
+$brand-colour-onshape-1: #1b5faa;
+$brand-colour-onshape-2: #90cef1;
+$brand-colour-onshape-3: #ffc20e;
+$brand-colour-oovoo: #eeaf00;
+$brand-colour-oovoo-1: #eeaf00;
+$brand-colour-opera: #cc0f16;
+$brand-colour-opera-1: #cc0f16;
+$brand-colour-opera-2: #9c9e9f;
+$brand-colour-oracle: #ff0000;
+$brand-colour-oracle-1: #ff0000;
+$brand-colour-oracle-2: #000000;
+$brand-colour-oracle-3: #7f7f7f;
+$brand-colour-oregon-state-university: #dc4405;
+$brand-colour-oregon-state-university-1: #dc4405;
+$brand-colour-oregon-state-university-2: #000000;
+$brand-colour-overstock: #c7202c;
+$brand-colour-overstock-1: #c7202c;
+$brand-colour-oxford-university-press: #002147;
+$brand-colour-oxford-university-press-1: #002147;
+$brand-colour-oxford-university-press-2: #000000;
+$brand-colour-oxford-university-press-3: #666666;
+$brand-colour-panasonic: #0f58a8;
+$brand-colour-panasonic-1: #0f58a8;
+$brand-colour-panasonic-2: #000000;
+$brand-colour-pandora: #005483;
+$brand-colour-pandora-1: #005483;
+$brand-colour-path: #ee3423;
+$brand-colour-path-1: #ee3423;
+$brand-colour-patreon: #e6461a;
+$brand-colour-patreon-1: #e6461a;
+$brand-colour-paymill: #f05000;
+$brand-colour-paymill-1: #f05000;
+$brand-colour-paypal: #003087;
+$brand-colour-paypal-1: #003087;
+$brand-colour-paypal-2: #009cde;
+$brand-colour-paypal-3: #012169;
+$brand-colour-pearson: #ed6b06;
+$brand-colour-pearson-1: #ed6b06;
+$brand-colour-pearson-2: #9d1348;
+$brand-colour-pearson-3: #008b5d;
+$brand-colour-pearson-4: #364395;
+$brand-colour-penguin-books: #ff6900;
+$brand-colour-penguin-books-1: #ff6900;
+$brand-colour-pepsi: #e32934;
+$brand-colour-pepsi-1: #e32934;
+$brand-colour-pepsi-2: #004883;
+$brand-colour-periscope: #3aa4c6;
+$brand-colour-periscope-1: #3aa4c6;
+$brand-colour-periscope-2: #d75444;
+$brand-colour-pfizer: #0093d0;
+$brand-colour-pfizer-1: #0093d0;
+$brand-colour-pfizer-2: #000000;
+$brand-colour-pfizer-3: #616365;
+$brand-colour-pfizer-4: #00aeef;
+$brand-colour-pfizer-5: #d6006e;
+$brand-colour-pfizer-6: #75d1e0;
+$brand-colour-pfizer-7: #7dba00;
+$brand-colour-pfizer-8: #cc292b;
+$brand-colour-pfizer-9: #00a950;
+$brand-colour-pfizer-10: #f8971d;
+$brand-colour-pfizer-11: #f7d417;
+$brand-colour-pfizer-12: #4a245e;
+$brand-colour-pfizer-13: #f26649;
+$brand-colour-philips: #0e5fd8;
+$brand-colour-philips-1: #0e5fd8;
+$brand-colour-photobucket: #0ea0db;
+$brand-colour-photobucket-1: #0ea0db;
+$brand-colour-photobucket-2: #000000;
+$brand-colour-php: #8892be;
+$brand-colour-php-1: #8892be;
+$brand-colour-php-2: #4f5b93;
+$brand-colour-php-3: #99cc99;
+$brand-colour-pinboard: #0000e6;
+$brand-colour-pinboard-1: #0000e6;
+$brand-colour-pinterest: #bd081c;
+$brand-colour-pinterest-1: #bd081c;
+$brand-colour-pizza-hut: #ee3124;
+$brand-colour-pizza-hut-1: #ee3124;
+$brand-colour-pizza-hut-2: #00a160;
+$brand-colour-pizza-hut-3: #ffc425;
+$brand-colour-plasso: #6585ed;
+$brand-colour-plasso-1: #6585ed;
+$brand-colour-plasso-2: #f5756c;
+$brand-colour-plasso-3: #98afc0;
+$brand-colour-plasso-4: #2f3148;
+$brand-colour-plaxo: #414f5a;
+$brand-colour-plaxo-1: #414f5a;
+$brand-colour-playstation: #003087;
+$brand-colour-playstation-1: #003087;
+$brand-colour-pocket: #ef4056;
+$brand-colour-pocket-1: #ef4056;
+$brand-colour-pocket-2: #50bcb6;
+$brand-colour-portfolium: #0099ff;
+$brand-colour-portfolium-1: #0099ff;
+$brand-colour-portfolium-2: #fb0a2a;
+$brand-colour-portfolium-3: #17ad49;
+$brand-colour-portfolium-4: #333333;
+$brand-colour-postman: #ef5b25;
+$brand-colour-postman-1: #ef5b25;
+$brand-colour-postmates: #000000;
+$brand-colour-postmates-1: #000000;
+$brand-colour-postmates-2: #36454f;
+$brand-colour-prezi: #318bff;
+$brand-colour-prezi-1: #318bff;
+$brand-colour-priceline: #1885bf;
+$brand-colour-priceline-1: #1885bf;
+$brand-colour-princeton-university: #ee7f2d;
+$brand-colour-princeton-university-1: #ee7f2d;
+$brand-colour-princeton-university-2: #000000;
+$brand-colour-product-hunt: #da552f;
+$brand-colour-product-hunt-1: #da552f;
+$brand-colour-product-hunt-2: #534540;
+$brand-colour-product-hunt-3: #988f8c;
+$brand-colour-product-hunt-4: #00b27f;
+$brand-colour-protonmail: #505264;
+$brand-colour-protonmail-1: #505264;
+$brand-colour-protonmail-2: #8a90c7;
+$brand-colour-purdue-university: #c28e0e;
+$brand-colour-purdue-university-1: #c28e0e;
+$brand-colour-purdue-university-2: #98700d;
+$brand-colour-purdue-university-3: #000000;
+$brand-colour-python: #ffde57;
+$brand-colour-python-1: #ffde57;
+$brand-colour-python-2: #4584b6;
+$brand-colour-python-3: #646464;
+$brand-colour-qantas-airlines: #e0001b;
+$brand-colour-qantas-airlines-1: #e0001b;
+$brand-colour-qualtrics: #e10019;
+$brand-colour-qualtrics-1: #e10019;
+$brand-colour-quizup: #ff5454;
+$brand-colour-quizup-1: #ff5454;
+$brand-colour-quora: #a82400;
+$brand-colour-quora-1: #a82400;
+$brand-colour-quote-fm: #66ceff;
+$brand-colour-quote-fm-1: #66ceff;
+$brand-colour-raspberry-pi: #c7053d;
+$brand-colour-raspberry-pi-1: #c7053d;
+$brand-colour-raspberry-pi-2: #8cc04b;
+$brand-colour-razer: #00ff00;
+$brand-colour-razer-1: #00ff00;
+$brand-colour-rdio: #007dc3;
+$brand-colour-rdio-1: #007dc3;
+$brand-colour-remax: #e11b22;
+$brand-colour-remax-1: #e11b22;
+$brand-colour-remax-2: #0054a4;
+$brand-colour-react: #00d8ff;
+$brand-colour-react-1: #00d8ff;
+$brand-colour-readability: #990000;
+$brand-colour-readability-1: #990000;
+$brand-colour-realex-payments: #f29023;
+$brand-colour-realex-payments-1: #f29023;
+$brand-colour-realex-payments-2: #4d5255;
+$brand-colour-red-hat: #cc0000;
+$brand-colour-red-hat-1: #cc0000;
+$brand-colour-reddit: #ff4500;
+$brand-colour-reddit-1: #ff4500;
+$brand-colour-reddit-2: #5f99cf;
+$brand-colour-reddit-3: #cee3f8;
+$brand-colour-redfin: #a02021;
+$brand-colour-redfin-1: #a02021;
+$brand-colour-redox: #0a2239;
+$brand-colour-redox-1: #0a2239;
+$brand-colour-redox-2: #01b287;
+$brand-colour-redox-3: #ff9f1c;
+$brand-colour-redox-4: #e5505a;
+$brand-colour-redox-5: #854c9e;
+$brand-colour-renaissance-hotels: #000000;
+$brand-colour-renaissance-hotels-1: #000000;
+$brand-colour-renaissance-hotels-2: #999999;
+$brand-colour-renaissance-hotels-3: #f58021;
+$brand-colour-rentler: #ed1c27;
+$brand-colour-rentler-1: #ed1c27;
+$brand-colour-residence-inn: #b32317;
+$brand-colour-residence-inn-1: #b32317;
+$brand-colour-residence-inn-2: #f58025;
+$brand-colour-residence-inn-3: #3a6e8f;
+$brand-colour-residence-inn-4: #87b2d8;
+$brand-colour-residence-inn-5: #8d8b00;
+$brand-colour-residence-inn-6: #c1d72f;
+$brand-colour-reverbnation: #e43526;
+$brand-colour-reverbnation-1: #e43526;
+$brand-colour-rockpack: #0ba6ab;
+$brand-colour-rockpack-1: #0ba6ab;
+$brand-colour-roku: #6f1ab1;
+$brand-colour-roku-1: #6f1ab1;
+$brand-colour-rolls-royce: #680021;
+$brand-colour-rolls-royce-1: #680021;
+$brand-colour-rolls-royce-2: #fffaec;
+$brand-colour-rolls-royce-3: #939598;
+$brand-colour-rolls-royce-4: #000000;
+$brand-colour-roo-kids: #e22027;
+$brand-colour-roo-kids-1: #e22027;
+$brand-colour-roo-kids-2: #a1cd3d;
+$brand-colour-roo-kids-3: #003e70;
+$brand-colour-roon: #62b0d9;
+$brand-colour-roon-1: #62b0d9;
+$brand-colour-rounds: #fdd800;
+$brand-colour-rounds-1: #fdd800;
+$brand-colour-rowan-university: #3f1a0a;
+$brand-colour-rowan-university-1: #3f1a0a;
+$brand-colour-rowan-university-2: #edd51c;
+$brand-colour-royal-mail: #ff0000;
+$brand-colour-royal-mail-1: #ff0000;
+$brand-colour-royal-mail-2: #ffff00;
+$brand-colour-royal-mail-3: #000000;
+$brand-colour-rss-2: #f26522;
+$brand-colour-rss-2-1: #f26522;
+$brand-colour-ruby: #cc342d;
+$brand-colour-ruby-1: #cc342d;
+$brand-colour-ruby-on-rails: #cc0000;
+$brand-colour-ruby-on-rails-1: #cc0000;
+$brand-colour-rutgers-university: #cc0033;
+$brand-colour-rutgers-university-1: #cc0033;
+$brand-colour-rutgers-university-2: #5f6a72;
+$brand-colour-rutgers-university-3: #000000;
+$brand-colour-rutgers-university-2: #cc0033;
+$brand-colour-rutgers-university-2-1: #cc0033;
+$brand-colour-sainsburys: #ec8a00;
+$brand-colour-sainsburys-1: #ec8a00;
+$brand-colour-salesforce: #1798c1;
+$brand-colour-salesforce-1: #1798c1;
+$brand-colour-salesforce-2: #ff1100;
+$brand-colour-samsung: #1428a0;
+$brand-colour-samsung-1: #1428a0;
+$brand-colour-samsung-2: #75787b;
+$brand-colour-samsung-3: #0689d8;
+$brand-colour-samsung-4: #ffc600;
+$brand-colour-samsung-5: #ff6900;
+$brand-colour-samsung-6: #e4002b;
+$brand-colour-samsung-7: #c800a1;
+$brand-colour-samsung-8: #685bc7;
+$brand-colour-samsung-9: #0057b8;
+$brand-colour-samsung-10: #00a9e0;
+$brand-colour-samsung-11: #009ca6;
+$brand-colour-samsung-12: #00b140;
+$brand-colour-san-francisco-49ers: #e91e22;
+$brand-colour-san-francisco-49ers-1: #e91e22;
+$brand-colour-san-francisco-49ers-2: #c8aa76;
+$brand-colour-san-francisco-49ers-3: #000000;
+$brand-colour-san-francisco-giants: #fd5a1e;
+$brand-colour-san-francisco-giants-1: #fd5a1e;
+$brand-colour-san-francisco-giants-2: #000000;
+$brand-colour-sap: #003366;
+$brand-colour-sap-1: #003366;
+$brand-colour-sap-2: #999999;
+$brand-colour-scouts-uk: #4d2177;
+$brand-colour-scouts-uk-1: #4d2177;
+$brand-colour-scouts-uk-2: #84a40b;
+$brand-colour-scouts-uk-3: #004851;
+$brand-colour-scouts-uk-4: #009a44;
+$brand-colour-scouts-uk-5: #0095c8;
+$brand-colour-scouts-uk-6: #003da5;
+$brand-colour-scouts-uk-7: #002855;
+$brand-colour-scouts-uk-8: #004851;
+$brand-colour-scouts-uk-9: #ffcd00;
+$brand-colour-scouts-uk-10: #ff8200;
+$brand-colour-scouts-uk-11: #ba0c2f;
+$brand-colour-scouts-uk-12: #ad1aac;
+$brand-colour-scouts-uk-13: #7c3a2d;
+$brand-colour-scouts-uk-14: #8c857b;
+$brand-colour-scribd: #1a7bba;
+$brand-colour-scribd-1: #1a7bba;
+$brand-colour-seton-hall-university: #004488;
+$brand-colour-seton-hall-university-1: #004488;
+$brand-colour-shazam: #0088ff;
+$brand-colour-shazam-1: #0088ff;
+$brand-colour-shazam-2: #ffaa00;
+$brand-colour-shazam-3: #ff7700;
+$brand-colour-shazam-4: #ff0033;
+$brand-colour-shazam-5: #9911aa;
+$brand-colour-shazam-6: #cc2288;
+$brand-colour-shazam-7: #aadd22;
+$brand-colour-shazam-8: #242424;
+$brand-colour-shazam-9: #646464;
+$brand-colour-shazam-10: #949494;
+$brand-colour-shazam-11: #e4e4e4;
+$brand-colour-shazam-12: #f4f4f4;
+$brand-colour-sherwin-williams: #0168b3;
+$brand-colour-sherwin-williams-1: #0168b3;
+$brand-colour-sherwin-williams-2: #ee3e34;
+$brand-colour-shopify: #96bf48;
+$brand-colour-shopify-1: #96bf48;
+$brand-colour-shopify-2: #479ccf;
+$brand-colour-shopify-3: #2d3538;
+$brand-colour-shopify-4: #f5f5f5;
+$brand-colour-shopify-5: #f2f7fa;
+$brand-colour-shopify-6: #666666;
+$brand-colour-shopmium: #f01f74;
+$brand-colour-shopmium-1: #f01f74;
+$brand-colour-siemens: #009999;
+$brand-colour-siemens-1: #009999;
+$brand-colour-skillshare: #f26b21;
+$brand-colour-skillshare-1: #f26b21;
+$brand-colour-skillshare-2: #68b8be;
+$brand-colour-skoda: #00800d;
+$brand-colour-skoda-1: #00800d;
+$brand-colour-skype: #00aff0;
+$brand-colour-skype-1: #00aff0;
+$brand-colour-skywest: #00338d;
+$brand-colour-skywest-1: #00338d;
+$brand-colour-slack: #6ecadc;
+$brand-colour-slack-1: #6ecadc;
+$brand-colour-slack-2: #e9a820;
+$brand-colour-slack-3: #e01563;
+$brand-colour-slack-4: #3eb991;
+$brand-colour-slideshare: #0077b5;
+$brand-colour-slideshare-1: #0077b5;
+$brand-colour-smashing-magazine: #e53b2c;
+$brand-colour-smashing-magazine-1: #e53b2c;
+$brand-colour-smashing-magazine-2: #41b7d8;
+$brand-colour-snagajob: #f36f21;
+$brand-colour-snagajob-1: #f36f21;
+$brand-colour-snapchat: #fffc00;
+$brand-colour-snapchat-1: #fffc00;
+$brand-colour-socialbro: #29c4d0;
+$brand-colour-socialbro-1: #29c4d0;
+$brand-colour-socialbro-2: #f29556;
+$brand-colour-socialbro-3: #84afa2;
+$brand-colour-socialbro-4: #72c427;
+$brand-colour-socialbro-5: #f24c7c;
+$brand-colour-socialbro-6: #00aaf2;
+$brand-colour-softonic: #008ace;
+$brand-colour-softonic-1: #008ace;
+$brand-colour-songkick: #f80046;
+$brand-colour-songkick-1: #f80046;
+$brand-colour-sonicbids: #ff6600;
+$brand-colour-sonicbids-1: #ff6600;
+$brand-colour-sonicbids-2: #0c88b1;
+$brand-colour-soulcycle: #fedf00;
+$brand-colour-soulcycle-1: #fedf00;
+$brand-colour-soulcycle-2: #1e1e1e;
+$brand-colour-soulcycle-3: #a7a8aa;
+$brand-colour-soundcloud: #ff8800;
+$brand-colour-soundcloud-1: #ff8800;
+$brand-colour-soundcloud-2: #ff3300;
+$brand-colour-spoken: #fc00c1;
+$brand-colour-spoken-1: #fc00c1;
+$brand-colour-spoken-2: #000000;
+$brand-colour-spotify: #1db954;
+$brand-colour-spotify-1: #1db954;
+$brand-colour-spotify-2: #191414;
+$brand-colour-sprint: #ffe100;
+$brand-colour-sprint-1: #ffe100;
+$brand-colour-sprout-social: #75dd66;
+$brand-colour-sprout-social-1: #75dd66;
+$brand-colour-sprout-social-2: #59cb59;
+$brand-colour-sprout-social-3: #2bb656;
+$brand-colour-sprout-social-4: #0ca750;
+$brand-colour-sprout-social-5: #f3f4f4;
+$brand-colour-sprout-social-6: #364141;
+$brand-colour-square-cash: #28c101;
+$brand-colour-square-cash-1: #28c101;
+$brand-colour-squarespace: #222222;
+$brand-colour-squarespace-1: #222222;
+$brand-colour-stack-exchange: #1e5397;
+$brand-colour-stack-exchange-1: #1e5397;
+$brand-colour-stack-exchange-2: #376db6;
+$brand-colour-stack-exchange-3: #4ca2da;
+$brand-colour-stack-exchange-4: #91d8f4;
+$brand-colour-stackoverflow: #f48024;
+$brand-colour-stackoverflow-1: #f48024;
+$brand-colour-stackoverflow-2: #222426;
+$brand-colour-stackoverflow-3: #bcbbbb;
+$brand-colour-staples: #cc0000;
+$brand-colour-staples-1: #cc0000;
+$brand-colour-staples-2: #2c8aec;
+$brand-colour-staples-3: #ffcc00;
+$brand-colour-starbucks: #00704a;
+$brand-colour-starbucks-1: #00704a;
+$brand-colour-status-chart: #d7584f;
+$brand-colour-status-chart-1: #d7584f;
+$brand-colour-steam: #00adee;
+$brand-colour-steam-1: #00adee;
+$brand-colour-steam-2: #000000;
+$brand-colour-sterling-hotels: #3b5a6f;
+$brand-colour-sterling-hotels-1: #3b5a6f;
+$brand-colour-sterling-hotels-2: #828a87;
+$brand-colour-sterling-hotels-3: #000000;
+$brand-colour-sterling-hotels-4: #9db7c4;
+$brand-colour-sterling-hotels-5: #ccd7dd;
+$brand-colour-sterling-hotels-6: #838f97;
+$brand-colour-sterling-hotels-7: #002054;
+$brand-colour-stockton-university: #000000;
+$brand-colour-stockton-university-1: #000000;
+$brand-colour-stockton-university-2: #79bde9;
+$brand-colour-stockton-university-3: #ffc423;
+$brand-colour-stockton-university-4: #bc9b6a;
+$brand-colour-stockton-university-5: #a7a9ac;
+$brand-colour-storyful: #f97200;
+$brand-colour-storyful-1: #f97200;
+$brand-colour-storyful-2: #010101;
+$brand-colour-storyful-3: #8b8b64;
+$brand-colour-storyful-4: #bbbdc0;
+$brand-colour-strava: #fc4c02;
+$brand-colour-strava-1: #fc4c02;
+$brand-colour-streamable: #0f90fa;
+$brand-colour-streamable-1: #0f90fa;
+$brand-colour-stripe: #00afe1;
+$brand-colour-stripe-1: #00afe1;
+$brand-colour-stubhub: #004b91;
+$brand-colour-stubhub-1: #004b91;
+$brand-colour-stubhub-2: #ff7300;
+$brand-colour-studyblue: #00afe1;
+$brand-colour-studyblue-1: #00afe1;
+$brand-colour-stumbleupon: #eb4924;
+$brand-colour-stumbleupon-1: #eb4924;
+$brand-colour-subway: #489e3b;
+$brand-colour-subway-1: #489e3b;
+$brand-colour-subway-2: #fabd42;
+$brand-colour-subway-3: #cd0a20;
+$brand-colour-sugarcrm: #e61718;
+$brand-colour-sugarcrm-1: #e61718;
+$brand-colour-sugarcrm-2: #e8e9ea;
+$brand-colour-sugarcrm-3: #595a5c;
+$brand-colour-sugarcrm-4: #282828;
+$brand-colour-suntrust: #00447c;
+$brand-colour-suntrust-1: #00447c;
+$brand-colour-suntrust-2: #fdb913;
+$brand-colour-suntrust-3: #e36f1e;
+$brand-colour-supershuttle: #4285f4;
+$brand-colour-supershuttle-1: #4285f4;
+$brand-colour-supershuttle-2: #ffcd1a;
+$brand-colour-swarm: #f06d1f;
+$brand-colour-swarm-1: #f06d1f;
+$brand-colour-swarm-2: #ffa633;
+$brand-colour-t-mobile: #e20074;
+$brand-colour-t-mobile-1: #e20074;
+$brand-colour-tagstr: #e74635;
+$brand-colour-tagstr-1: #e74635;
+$brand-colour-tagstr-2: #e74635;
+$brand-colour-tagstr-2-1: #e74635;
+$brand-colour-taiga: #444444;
+$brand-colour-taiga-1: #444444;
+$brand-colour-taiga-2: #b8b8b8;
+$brand-colour-taiga-3: #72a114;
+$brand-colour-taiga-4: #9dce0a;
+$brand-colour-taiga-5: #879b89;
+$brand-colour-target: #cc0000;
+$brand-colour-target-1: #cc0000;
+$brand-colour-technorati: #339900;
+$brand-colour-technorati-1: #339900;
+$brand-colour-ted: #e62b1e;
+$brand-colour-ted-1: #e62b1e;
+$brand-colour-telegram: #0088cc;
+$brand-colour-telegram-1: #0088cc;
+$brand-colour-tvtag: #e92c4c;
+$brand-colour-tvtag-1: #e92c4c;
+$brand-colour-tvtag-2: #c82641;
+$brand-colour-temple: #a41e35;
+$brand-colour-temple-1: #a41e35;
+$brand-colour-temple-2: #222222;
+$brand-colour-temple-3: #899197;
+$brand-colour-tesco: #ee1c2e;
+$brand-colour-tesco-1: #ee1c2e;
+$brand-colour-tesco-2: #00539f;
+$brand-colour-tesla: #cc0000;
+$brand-colour-tesla-1: #cc0000;
+$brand-colour-texas-am-university: #500000;
+$brand-colour-texas-am-university-1: #500000;
+$brand-colour-texas-am-university-2: #003c71;
+$brand-colour-texas-am-university-3: #5b6236;
+$brand-colour-texas-am-university-4: #744f28;
+$brand-colour-texas-am-university-5: #998542;
+$brand-colour-texas-am-university-6: #332c2c;
+$brand-colour-texas-am-university-7: #707373;
+$brand-colour-texas-am-university-8: #d6d3c4;
+$brand-colour-texas-tech-university: #cc0000;
+$brand-colour-texas-tech-university-1: #cc0000;
+$brand-colour-texas-tech-university-2: #000000;
+$brand-colour-the-audience-awards: #ee8421;
+$brand-colour-the-audience-awards-1: #ee8421;
+$brand-colour-the-audience-awards-2: #8c8a8a;
+$brand-colour-the-audience-awards-3: #222222;
+$brand-colour-the-college-of-new-jersey: #293f6f;
+$brand-colour-the-college-of-new-jersey-1: #293f6f;
+$brand-colour-the-college-of-new-jersey-2: #a67a00;
+$brand-colour-the-next-web: #ff3c1f;
+$brand-colour-the-next-web-1: #ff3c1f;
+$brand-colour-the-next-web-2: #26313b;
+$brand-colour-the-next-web-3: #4e5860;
+$brand-colour-the-next-web-4: #a6abaf;
+$brand-colour-the-next-web-5: #d9e0e2;
+$brand-colour-the-next-web-6: #fafbfc;
+$brand-colour-the-ritz-carlton: #006b95;
+$brand-colour-the-ritz-carlton-1: #006b95;
+$brand-colour-the-ritz-carlton-2: #4f5b65;
+$brand-colour-the-ritz-carlton-3: #b3812a;
+$brand-colour-the-ritz-carlton-4: #a01a1f;
+$brand-colour-the-sun: #ed1c24;
+$brand-colour-the-sun-1: #ed1c24;
+$brand-colour-the-sun-2: #b90c13;
+$brand-colour-the-sun-goals: #00745e;
+$brand-colour-the-sun-goals-1: #00745e;
+$brand-colour-the-sun-goals-2: #086556;
+$brand-colour-the-sun-perks: #8560a8;
+$brand-colour-the-sun-perks-1: #8560a8;
+$brand-colour-the-sun-perks-2: #431c69;
+$brand-colour-the-times: #000000;
+$brand-colour-the-times-1: #000000;
+$brand-colour-thomson-reuters: #ff8000;
+$brand-colour-thomson-reuters-1: #ff8000;
+$brand-colour-thomson-reuters-2: #555555;
+$brand-colour-thomson-reuters-3: #444444;
+$brand-colour-thomson-reuters-4: #666666;
+$brand-colour-thomson-reuters-5: #cccccc;
+$brand-colour-thomson-reuters-6: #e9e9e9;
+$brand-colour-thomson-reuters-7: #f7f7f7;
+$brand-colour-tivo: #da3d34;
+$brand-colour-tivo-1: #da3d34;
+$brand-colour-tivo-2: #00a480;
+$brand-colour-tivo-3: #ed9f40;
+$brand-colour-tivo-4: #6a76ac;
+$brand-colour-tivo-5: #17170e;
+$brand-colour-tivo-6: #534b38;
+$brand-colour-tivo-7: #a6a480;
+$brand-colour-treehouse: #6fbc6d;
+$brand-colour-treehouse-1: #6fbc6d;
+$brand-colour-treehouse-2: #47535b;
+$brand-colour-trello: #0079bf;
+$brand-colour-trello-1: #0079bf;
+$brand-colour-trello-2: #70b500;
+$brand-colour-trello-3: #ff9f1a;
+$brand-colour-trello-4: #eb5a46;
+$brand-colour-trello-5: #f2d600;
+$brand-colour-trello-6: #c377e0;
+$brand-colour-trello-7: #ff78cb;
+$brand-colour-trello-8: #00c2e0;
+$brand-colour-trello-9: #51e898;
+$brand-colour-trello-10: #c4c9cc;
+$brand-colour-tripadvisor: #00af87;
+$brand-colour-tripadvisor-1: #00af87;
+$brand-colour-trulia: #5eab1f;
+$brand-colour-trulia-1: #5eab1f;
+$brand-colour-tumblr: #35465c;
+$brand-colour-tumblr-1: #35465c;
+$brand-colour-tunngle: #c30f24;
+$brand-colour-tunngle-1: #c30f24;
+$brand-colour-turbotax: #355ebe;
+$brand-colour-turbotax-1: #355ebe;
+$brand-colour-turbotax-2: #d52b1d;
+$brand-colour-twentythree: #1ec95b;
+$brand-colour-twentythree-1: #1ec95b;
+$brand-colour-twentythree-2: #043623;
+$brand-colour-twentythree-3: #eff5f0;
+$brand-colour-twitch-tv: #6441a5;
+$brand-colour-twitch-tv-1: #6441a5;
+$brand-colour-twitch-tv-2: #b9a3e3;
+$brand-colour-twitch-tv-3: #262626;
+$brand-colour-twitch-tv-4: #f1f1f1;
+$brand-colour-twitter: #1da1f2;
+$brand-colour-twitter-1: #1da1f2;
+$brand-colour-twitter-2: #14171a;
+$brand-colour-twitter-3: #657786;
+$brand-colour-twitter-4: #aab8c2;
+$brand-colour-twitter-5: #e1e8ed;
+$brand-colour-twitter-6: #f5f8fa;
+$brand-colour-typekit: #98ce1e;
+$brand-colour-typekit-1: #98ce1e;
+$brand-colour-typepad: #d2de61;
+$brand-colour-typepad-1: #d2de61;
+$brand-colour-typo3: #ff8700;
+$brand-colour-typo3-1: #ff8700;
+$brand-colour-uber: #09091a;
+$brand-colour-uber-1: #09091a;
+$brand-colour-uber-2: #c0c0c8;
+$brand-colour-uber-3: #1fbad6;
+$brand-colour-ubuntu: #dd4814;
+$brand-colour-ubuntu-1: #dd4814;
+$brand-colour-ubuntu-2: #77216f;
+$brand-colour-ubuntu-3: #5e2750;
+$brand-colour-ubuntu-4: #2c001e;
+$brand-colour-ubuntu-5: #aea79f;
+$brand-colour-ubuntu-6: #333333;
+$brand-colour-uc-berkeley: #003262;
+$brand-colour-uc-berkeley-1: #003262;
+$brand-colour-uc-berkeley-2: #3b7ea1;
+$brand-colour-uc-berkeley-3: #fdb515;
+$brand-colour-uc-berkeley-4: #c4820e;
+$brand-colour-ucsf: #052049;
+$brand-colour-ucsf-1: #052049;
+$brand-colour-ucsf-2: #18a3ac;
+$brand-colour-ucsf-3: #90bd31;
+$brand-colour-ucsf-4: #178ccb;
+$brand-colour-ucsf-5: #f48024;
+$brand-colour-united-way: #10167f;
+$brand-colour-united-way-1: #10167f;
+$brand-colour-united-way-2: #fe230a;
+$brand-colour-united-way-3: #ff9600;
+$brand-colour-united-way-4: #000064;
+$brand-colour-united-way-5: #b41428;
+$brand-colour-united-way-6: #f57814;
+$brand-colour-united-way-7: #e6d7aa;
+$brand-colour-united-way-8: #505050;
+$brand-colour-united-way-9: #f0e6c8;
+$brand-colour-united-way-10: #969696;
+$brand-colour-united-way-11: #7c81b8;
+$brand-colour-united-way-12: #ff967d;
+$brand-colour-united-way-13: #ffc87d;
+$brand-colour-unity: #222c37;
+$brand-colour-unity-1: #222c37;
+$brand-colour-unity-2: #00cccc;
+$brand-colour-unity-3: #fff600;
+$brand-colour-unity-4: #ff0066;
+$brand-colour-unity-5: #19e3b1;
+$brand-colour-unity-6: #ff7f33;
+$brand-colour-unity-7: #b83c82;
+$brand-colour-universitat-hamburg: #e2001a;
+$brand-colour-universitat-hamburg-1: #e2001a;
+$brand-colour-universitat-hamburg-2: #009cd1;
+$brand-colour-universitat-hamburg-3: #3b515b;
+$brand-colour-university-of-alberta: #007c41;
+$brand-colour-university-of-alberta-1: #007c41;
+$brand-colour-university-of-alberta-2: #ffdb05;
+$brand-colour-university-of-arizona: #cc0033;
+$brand-colour-university-of-arizona-1: #cc0033;
+$brand-colour-university-of-arizona-2: #003366;
+$brand-colour-university-of-cambridge: #d6083b;
+$brand-colour-university-of-cambridge-1: #d6083b;
+$brand-colour-university-of-cambridge-2: #0072cf;
+$brand-colour-university-of-cambridge-3: #ea7125;
+$brand-colour-university-of-cambridge-4: #55a51c;
+$brand-colour-university-of-cambridge-5: #8f2bbc;
+$brand-colour-university-of-cambridge-6: #00b1c1;
+$brand-colour-university-of-florida: #fa4616;
+$brand-colour-university-of-florida-1: #fa4616;
+$brand-colour-university-of-florida-2: #0021a5;
+$brand-colour-university-of-illinois-urbana-champaign: #131f33;
+$brand-colour-university-of-illinois-urbana-champaign-1: #131f33;
+$brand-colour-university-of-illinois-urbana-champaign-2: #fa6300;
+$brand-colour-university-of-kentucky: #005daa;
+$brand-colour-university-of-kentucky-1: #005daa;
+$brand-colour-university-of-michigan: #00274c;
+$brand-colour-university-of-michigan-1: #00274c;
+$brand-colour-university-of-michigan-2: #ffcb05;
+$brand-colour-university-of-oregon: #fce122;
+$brand-colour-university-of-oregon-1: #fce122;
+$brand-colour-university-of-oregon-2: #18453b;
+$brand-colour-university-of-texas: #bf5700;
+$brand-colour-university-of-texas-1: #bf5700;
+$brand-colour-university-of-texas-2: #333f48;
+$brand-colour-university-of-texas-3: #005f86;
+$brand-colour-university-of-texas-4: #43695b;
+$brand-colour-university-of-texas-5: #f2a900;
+$brand-colour-university-of-texas-6: #382f2d;
+$brand-colour-university-of-texas-7: #d6d2c4;
+$brand-colour-university-of-victoria: #005493;
+$brand-colour-university-of-victoria-1: #005493;
+$brand-colour-university-of-victoria-2: #f5aa1c;
+$brand-colour-university-of-victoria-3: #c63527;
+$brand-colour-university-of-victoria-4: #002754;
+$brand-colour-university-of-washington: #4b2e83;
+$brand-colour-university-of-washington-1: #4b2e83;
+$brand-colour-university-of-washington-2: #b7a57a;
+$brand-colour-university-of-washington-3: #85754d;
+$brand-colour-university-of-waterloo: #ffd54f;
+$brand-colour-university-of-waterloo-1: #ffd54f;
+$brand-colour-university-of-waterloo-2: #000;
+$brand-colour-university-of-wisconsin-milwaukee: #ffbd00;
+$brand-colour-university-of-wisconsin-milwaukee-1: #ffbd00;
+$brand-colour-university-of-wisconsin-milwaukee-2: #000000;
+$brand-colour-university-of-wisconsin-milwaukee-3: #98c646;
+$brand-colour-university-of-wisconsin-milwaukee-4: #694d88;
+$brand-colour-university-of-wisconsin-milwaukee-5: #5382af;
+$brand-colour-university-of-wisconsin-milwaukee-6: #d06d34;
+$brand-colour-university-of-wisconsin-milwaukee-7: #5f9a38;
+$brand-colour-university-of-wisconsin-milwaukee-8: #474d52;
+$brand-colour-univision: #c822b0;
+$brand-colour-univision-1: #c822b0;
+$brand-colour-ups: #351c15;
+$brand-colour-ups-1: #351c15;
+$brand-colour-ups-2: #ffb500;
+$brand-colour-ups-3: #64a70b;
+$brand-colour-usps: #333366;
+$brand-colour-usps-1: #333366;
+$brand-colour-usps-2: #e71921;
+$brand-colour-usps-3: #218748;
+$brand-colour-ustream: #3388ff;
+$brand-colour-ustream-1: #3388ff;
+$brand-colour-verizon: #ff0000;
+$brand-colour-verizon-1: #ff0000;
+$brand-colour-verizon-2: #f2f2f2;
+$brand-colour-verizon-3: #3285dc;
+$brand-colour-viadeo: #f07355;
+$brand-colour-viadeo-1: #f07355;
+$brand-colour-viber: #59267c;
+$brand-colour-viber-1: #59267c;
+$brand-colour-viber-2: #8f5db7;
+$brand-colour-viber-3: #e2d4e7;
+$brand-colour-viber-4: #a5cfd5;
+$brand-colour-viber-5: #81cd50;
+$brand-colour-vidme: #f82a53;
+$brand-colour-vidme-1: #f82a53;
+$brand-colour-vidme-2: #111111;
+$brand-colour-vidme-3: #f5f5f5;
+$brand-colour-vidme-4: #9f2af8;
+$brand-colour-vidme-5: #aaaaaa;
+$brand-colour-vidme-6: #dff0d8;
+$brand-colour-viki: #3c9cd7;
+$brand-colour-viki-1: #3c9cd7;
+$brand-colour-viki-2: #d24663;
+$brand-colour-vimeo: #162221;
+$brand-colour-vimeo-1: #162221;
+$brand-colour-vimeo-2: #1ab7ea;
+$brand-colour-vine: #00b488;
+$brand-colour-vine-1: #00b488;
+$brand-colour-virb: #1e91d0;
+$brand-colour-virb-1: #1e91d0;
+$brand-colour-virgin-media: #c3092d;
+$brand-colour-virgin-media-1: #c3092d;
+$brand-colour-virgin-media-2: #222221;
+$brand-colour-visa: #1a1f71;
+$brand-colour-visa-1: #1a1f71;
+$brand-colour-visa-2: #f7b600;
+$brand-colour-visualcv: #31577a;
+$brand-colour-visualcv-1: #31577a;
+$brand-colour-visually: #14acf2;
+$brand-colour-visually-1: #14acf2;
+$brand-colour-visually-2: #f04494;
+$brand-colour-visually-3: #0ac578;
+$brand-colour-vkontakte: #45668e;
+$brand-colour-vkontakte-1: #45668e;
+$brand-colour-vodafone: #e60000;
+$brand-colour-vodafone-1: #e60000;
+$brand-colour-vodafone-2: #4a4d4e;
+$brand-colour-vodafone-3: #9c2aa0;
+$brand-colour-vodafone-4: #5e2750;
+$brand-colour-vodafone-5: #00b0ca;
+$brand-colour-vodafone-6: #007c92;
+$brand-colour-vodafone-7: #a8b400;
+$brand-colour-vodafone-8: #fecb00;
+$brand-colour-vodafone-9: #eb9800;
+$brand-colour-vodafone-10: #000000;
+$brand-colour-volvo: #003057;
+$brand-colour-volvo-1: #003057;
+$brand-colour-volvo-2: #115740;
+$brand-colour-volvo-3: #65665c;
+$brand-colour-volvo-4: #425563;
+$brand-colour-volvo-5: #517891;
+$brand-colour-volvo-6: #212721;
+$brand-colour-vue-js: #42b883;
+$brand-colour-vue-js-1: #42b883;
+$brand-colour-vue-js-2: #35495e;
+$brand-colour-walgreens: #e31837;
+$brand-colour-walgreens-1: #e31837;
+$brand-colour-walgreens-2: #f37520;
+$brand-colour-walgreens-3: #489cd4;
+$brand-colour-walgreens-4: #2774a6;
+$brand-colour-walgreens-5: #35393d;
+$brand-colour-walmart: #007dc6;
+$brand-colour-walmart-1: #007dc6;
+$brand-colour-walmart-2: #79b9e7;
+$brand-colour-walmart-3: #f47421;
+$brand-colour-walmart-4: #76c143;
+$brand-colour-walmart-5: #ffc120;
+$brand-colour-walmart-6: #e7f0f7;
+$brand-colour-walmart-7: #f2f8fd;
+$brand-colour-walmart-8: #222222;
+$brand-colour-walmart-9: #444444;
+$brand-colour-warby-parker: #414b56;
+$brand-colour-warby-parker-1: #414b56;
+$brand-colour-warby-parker-2: #00a2e1;
+$brand-colour-wave-apps: #1c2d37;
+$brand-colour-wave-apps-1: #1c2d37;
+$brand-colour-wave-apps-2: #4ec7c4;
+$brand-colour-wave-apps-3: #00959f;
+$brand-colour-wave-apps-4: #3b9bcc;
+$brand-colour-webzunder: #eea642;
+$brand-colour-webzunder-1: #eea642;
+$brand-colour-wechat: #7bb32e;
+$brand-colour-wechat-1: #7bb32e;
+$brand-colour-wendys: #e2203d;
+$brand-colour-wendys-1: #e2203d;
+$brand-colour-wendys-2: #199fda;
+$brand-colour-western-digital: #005195;
+$brand-colour-western-digital-1: #005195;
+$brand-colour-western-digital-2: #028948;
+$brand-colour-western-digital-3: #ffd400;
+$brand-colour-western-digital-4: #0067b3;
+$brand-colour-western-digital-5: #9d0a0e;
+$brand-colour-western-digital-6: #003369;
+$brand-colour-whatsapp: #075e54;
+$brand-colour-whatsapp-1: #075e54;
+$brand-colour-whatsapp-2: #128c7e;
+$brand-colour-whatsapp-3: #25d366;
+$brand-colour-whatsapp-4: #dcf8c6;
+$brand-colour-whatsapp-5: #34b7f1;
+$brand-colour-whatsapp-6: #ece5dd;
+$brand-colour-whoosnap-designer: #2fa5d6;
+$brand-colour-whoosnap-designer-1: #2fa5d6;
+$brand-colour-whoosnap-designer-2: #b52f2c;
+$brand-colour-wikipedia: #000000;
+$brand-colour-wikipedia-1: #000000;
+$brand-colour-wikipedia-2: #636466;
+$brand-colour-wikipedia-3: #939598;
+$brand-colour-wikipedia-4: #c7c8ca;
+$brand-colour-windows: #00bcf2;
+$brand-colour-windows-1: #00bcf2;
+$brand-colour-windows-phone: #68217a;
+$brand-colour-windows-phone-1: #68217a;
+$brand-colour-wooga: #5b009c;
+$brand-colour-wooga-1: #5b009c;
+$brand-colour-wordpress: #21759b;
+$brand-colour-wordpress-1: #21759b;
+$brand-colour-wordpress-2: #d54e21;
+$brand-colour-wordpress-3: #464646;
+$brand-colour-wordpress-com: #0087be;
+$brand-colour-wordpress-com-1: #0087be;
+$brand-colour-wordpress-com-2: #78dcfa;
+$brand-colour-wordpress-com-3: #00aadc;
+$brand-colour-wordpress-com-4: #005082;
+$brand-colour-wordpress-com-5: #87a6bc;
+$brand-colour-wordpress-com-6: #f3f6f8;
+$brand-colour-wordpress-com-7: #e9eff3;
+$brand-colour-wordpress-com-8: #e9eff3;
+$brand-colour-wordpress-com-9: #a8bece;
+$brand-colour-wordpress-com-10: #668eaa;
+$brand-colour-wordpress-com-11: #4f748e;
+$brand-colour-wordpress-com-12: #3d596d;
+$brand-colour-wordpress-com-13: #2e4453;
+$brand-colour-wordpress-com-14: #d54e21;
+$brand-colour-wordpress-com-15: #f0821e;
+$brand-colour-wordpress-com-16: #4ab866;
+$brand-colour-wordpress-com-17: #f0b849;
+$brand-colour-wordpress-com-18: #d94f4f;
+$brand-colour-world-organisation-of-the-scout-movement-wosm: #622599;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-1: #622599;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-2: #0054a0;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-3: #aaba0a;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-4: #dd7500;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-5: #e23d28;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-6: #3d8e33;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-7: #3399ff;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-8: #ff3399;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-9: #fcd116;
+$brand-colour-world-organisation-of-the-scout-movement-wosm-10: #999999;
+$brand-colour-worldline: #0066a1;
+$brand-colour-worldline-1: #0066a1;
+$brand-colour-wufoo: #e66760;
+$brand-colour-wufoo-1: #e66760;
+$brand-colour-wufoo-2: #8c88cd;
+$brand-colour-wufoo-3: #69c5e4;
+$brand-colour-wufoo-4: #ffdf8b;
+$brand-colour-wufoo-5: #61e064;
+$brand-colour-wunderlist: #2b96f1;
+$brand-colour-wunderlist-1: #2b96f1;
+$brand-colour-wwe: #d7182a;
+$brand-colour-wwe-1: #d7182a;
+$brand-colour-xbox: #52b043;
+$brand-colour-xbox-1: #52b043;
+$brand-colour-xing: #026466;
+$brand-colour-xing-1: #026466;
+$brand-colour-xing-2: #cfdc00;
+$brand-colour-xy-gaming: #3299cc;
+$brand-colour-xy-gaming-1: #3299cc;
+$brand-colour-xy-gaming-2: #333333;
+$brand-colour-yahoo: #410093;
+$brand-colour-yahoo-1: #410093;
+$brand-colour-yandex: #ffcc00;
+$brand-colour-yandex-1: #ffcc00;
+$brand-colour-yellow-pages: #ffd400;
+$brand-colour-yellow-pages-1: #ffd400;
+$brand-colour-yellow-pages-2: #000000;
+$brand-colour-yelp: #af0606;
+$brand-colour-yelp-1: #af0606;
+$brand-colour-yo: #9b59b6;
+$brand-colour-yo-1: #9b59b6;
+$brand-colour-yo-2: #e74c3c;
+$brand-colour-yo-3: #8e44ad;
+$brand-colour-yo-4: #2980b9;
+$brand-colour-yo-5: #f1c40f;
+$brand-colour-yo-6: #16a085;
+$brand-colour-yo-7: #34495e;
+$brand-colour-yo-8: #3498db;
+$brand-colour-yo-9: #2ecc71;
+$brand-colour-yo-10: #1abc9c;
+$brand-colour-youtube: #cd201f;
+$brand-colour-youtube-1: #cd201f;
+$brand-colour-zapier: #ff4a00;
+$brand-colour-zapier-1: #ff4a00;
+$brand-colour-zapier-2: #fd7622;
+$brand-colour-zapier-3: #ffc43e;
+$brand-colour-zapier-4: #5f6c72;
+$brand-colour-zapier-5: #499df3;
+$brand-colour-zapier-6: #13d0ab;
+$brand-colour-zendesk: #00363d;
+$brand-colour-zendesk-1: #00363d;
+$brand-colour-zendesk-2: #f79a3e;
+$brand-colour-zendesk-3: #eb6651;
+$brand-colour-zendesk-4: #30aabc;
+$brand-colour-zendesk-5: #eb4962;
+$brand-colour-zendesk-6: #37b8af;
+$brand-colour-zendesk-7: #78a300;
+$brand-colour-zendesk-8: #f0ca28;
+$brand-colour-zerply: #9dbc7a;
+$brand-colour-zerply-1: #9dbc7a;
+$brand-colour-zillow: #1277e1;
+$brand-colour-zillow-1: #1277e1;
+$brand-colour-zomato: #cb202d;
+$brand-colour-zomato-1: #cb202d;
+$brand-colour-zomato-2: #2d2d2d;
+$brand-colour-zomato-3: #f4f4f2;
+$brand-colour-zopim: #ff9d3b;
+$brand-colour-zopim-1: #ff9d3b;
+
+$brand-colours: (
+  500px: $brand-colour-500px,
+  about-me: $brand-colour-about-me,
+  adobe: $brand-colour-adobe,
+  aetna: $brand-colour-aetna,
+  aim: $brand-colour-aim,
+  airbnb: $brand-colour-airbnb,
+  alcon: $brand-colour-alcon,
+  algolia: $brand-colour-algolia,
+  alibaba: $brand-colour-alibaba,
+  alienware: $brand-colour-alienware,
+  alphabet: $brand-colour-alphabet,
+  amazon: $brand-colour-amazon,
+  american-express: $brand-colour-american-express,
+  american-red-cross: $brand-colour-american-red-cross,
+  android: $brand-colour-android,
+  angies-list: $brand-colour-angies-list,
+  angularjs: $brand-colour-angularjs,
+  answers: $brand-colour-answers,
+  aol: $brand-colour-aol,
+  arch-linux: $brand-colour-arch-linux,
+  arizona-state-university-asu: $brand-colour-arizona-state-university-asu,
+  asana: $brand-colour-asana,
+  associated-press: $brand-colour-associated-press,
+  att: $brand-colour-att,
+  atlanta-falcons: $brand-colour-atlanta-falcons,
+  atlantic-coast-conference-acc: $brand-colour-atlantic-coast-conference-acc,
+  atlassian: $brand-colour-atlassian,
+  auth0: $brand-colour-auth0,
+  avira: $brand-colour-avira,
+  baidu: $brand-colour-baidu,
+  bandcamp: $brand-colour-bandcamp,
+  barclays: $brand-colour-barclays,
+  barnes-noble: $brand-colour-barnes-noble,
+  basecamp: $brand-colour-basecamp,
+  beats-by-dre: $brand-colour-beats-by-dre,
+  bebo: $brand-colour-bebo,
+  behance: $brand-colour-behance,
+  best-buy: $brand-colour-best-buy,
+  big-cartel: $brand-colour-big-cartel,
+  bitbucket: $brand-colour-bitbucket,
+  bitly: $brand-colour-bitly,
+  blackberry: $brand-colour-blackberry,
+  blockchain: $brand-colour-blockchain,
+  blogger: $brand-colour-blogger,
+  boeing: $brand-colour-boeing,
+  boise-state-university: $brand-colour-boise-state-university,
+  bombardier: $brand-colour-bombardier,
+  booking-com: $brand-colour-booking-com,
+  bower: $brand-colour-bower,
+  box: $brand-colour-box,
+  boy-scouts-of-america: $brand-colour-boy-scouts-of-america,
+  british-airways: $brand-colour-british-airways,
+  bt: $brand-colour-bt,
+  buffer: $brand-colour-buffer,
+  burger-king: $brand-colour-burger-king,
+  buzzfeed: $brand-colour-buzzfeed,
+  bynder: $brand-colour-bynder,
+  cadbury: $brand-colour-cadbury,
+  canon: $brand-colour-canon,
+  capital-one: $brand-colour-capital-one,
+  carbonmade: $brand-colour-carbonmade,
+  carrefour: $brand-colour-carrefour,
+  carrot: $brand-colour-carrot,
+  cartoon-network: $brand-colour-cartoon-network,
+  case-mate: $brand-colour-case-mate,
+  change-org: $brand-colour-change-org,
+  charity-water: $brand-colour-charity-water,
+  cheddar: $brand-colour-cheddar,
+  clemson-university: $brand-colour-clemson-university,
+  coca-cola: $brand-colour-coca-cola,
+  code-school: $brand-colour-code-school,
+  codecademy: $brand-colour-codecademy,
+  codepen: $brand-colour-codepen,
+  connexxion: $brand-colour-connexxion,
+  continental-ag: $brand-colour-continental-ag,
+  courtyard: $brand-colour-courtyard,
+  craft-cms: $brand-colour-craft-cms,
+  creative-market: $brand-colour-creative-market,
+  crowne-plaza: $brand-colour-crowne-plaza,
+  crunchbase: $brand-colour-crunchbase,
+  culvers: $brand-colour-culvers,
+  cunard: $brand-colour-cunard,
+  cvs: $brand-colour-cvs,
+  daimler: $brand-colour-daimler,
+  debian: $brand-colour-debian,
+  delectable: $brand-colour-delectable,
+  delicious: $brand-colour-delicious,
+  dell: $brand-colour-dell,
+  delta-airlines: $brand-colour-delta-airlines,
+  dental-plans: $brand-colour-dental-plans,
+  designer-news: $brand-colour-designer-news,
+  designmoo: $brand-colour-designmoo,
+  deviantart: $brand-colour-deviantart,
+  devour: $brand-colour-devour,
+  dewalt: $brand-colour-dewalt,
+  dhl: $brand-colour-dhl,
+  diebold: $brand-colour-diebold,
+  digg: $brand-colour-digg,
+  digital-ocean: $brand-colour-digital-ocean,
+  dindr: $brand-colour-dindr,
+  direct-energy: $brand-colour-direct-energy,
+  directv: $brand-colour-directv,
+  discogs: $brand-colour-discogs,
+  discord: $brand-colour-discord,
+  dish-network: $brand-colour-dish-network,
+  disqus: $brand-colour-disqus,
+  django: $brand-colour-django,
+  docker: $brand-colour-docker,
+  dominos: $brand-colour-dominos,
+  dow: $brand-colour-dow,
+  dribbble: $brand-colour-dribbble,
+  dropbox: $brand-colour-dropbox,
+  droplr: $brand-colour-droplr,
+  drupal: $brand-colour-drupal,
+  dunked: $brand-colour-dunked,
+  duolingo: $brand-colour-duolingo,
+  dwolla: $brand-colour-dwolla,
+  etrade: $brand-colour-etrade,
+  easy-jet: $brand-colour-easy-jet,
+  ebay: $brand-colour-ebay,
+  el-al: $brand-colour-el-al,
+  elance: $brand-colour-elance,
+  ello: $brand-colour-ello,
+  ember: $brand-colour-ember,
+  emma: $brand-colour-emma,
+  engadget: $brand-colour-engadget,
+  envato: $brand-colour-envato,
+  epictions: $brand-colour-epictions,
+  ericsson: $brand-colour-ericsson,
+  esl: $brand-colour-esl,
+  espn: $brand-colour-espn,
+  etsy: $brand-colour-etsy,
+  evaneos: $brand-colour-evaneos,
+  eventbrite: $brand-colour-eventbrite,
+  evernote: $brand-colour-evernote,
+  execucar: $brand-colour-execucar,
+  fab-com: $brand-colour-fab-com,
+  facebook: $brand-colour-facebook,
+  fairfield-inn-suites: $brand-colour-fairfield-inn-suites,
+  fairmont: $brand-colour-fairmont,
+  famo-us: $brand-colour-famo-us,
+  fancy: $brand-colour-fancy,
+  fedex: $brand-colour-fedex,
+  feedly: $brand-colour-feedly,
+  ferrari: $brand-colour-ferrari,
+  fiat: $brand-colour-fiat,
+  firefox: $brand-colour-firefox,
+  fiskars: $brand-colour-fiskars,
+  fitbit: $brand-colour-fitbit,
+  five-guys: $brand-colour-five-guys,
+  flattr: $brand-colour-flattr,
+  flavors-me: $brand-colour-flavors-me,
+  flickr: $brand-colour-flickr,
+  flipboard: $brand-colour-flipboard,
+  flixster: $brand-colour-flixster,
+  follr: $brand-colour-follr,
+  ford: $brand-colour-ford,
+  4ormat: $brand-colour-4ormat,
+  forrst: $brand-colour-forrst,
+  foursquare: $brand-colour-foursquare,
+  freecodecamp: $brand-colour-freecodecamp,
+  friend2friend: $brand-colour-friend2friend,
+  gallaudet-university: $brand-colour-gallaudet-university,
+  gannett: $brand-colour-gannett,
+  garmin: $brand-colour-garmin,
+  garuda: $brand-colour-garuda,
+  generatepress: $brand-colour-generatepress,
+  geocaching: $brand-colour-geocaching,
+  georgia-southern-university: $brand-colour-georgia-southern-university,
+  ghost: $brand-colour-ghost,
+  gibson: $brand-colour-gibson,
+  gimmebar: $brand-colour-gimmebar,
+  github: $brand-colour-github,
+  gitlab: $brand-colour-gitlab,
+  gitter: $brand-colour-gitter,
+  gittip: $brand-colour-gittip,
+  godaddy: $brand-colour-godaddy,
+  gogo: $brand-colour-gogo,
+  goodreads: $brand-colour-goodreads,
+  google: $brand-colour-google,
+  google-duo: $brand-colour-google-duo,
+  google-plus: $brand-colour-google-plus,
+  gravatar: $brand-colour-gravatar,
+  gravit: $brand-colour-gravit,
+  groupon: $brand-colour-groupon,
+  grunt: $brand-colour-grunt,
+  gumtree: $brand-colour-gumtree,
+  gvb: $brand-colour-gvb,
+  hacker-news: $brand-colour-hacker-news,
+  hangouts: $brand-colour-hangouts,
+  happn: $brand-colour-happn,
+  heineken: $brand-colour-heineken,
+  hellowallet: $brand-colour-hellowallet,
+  help-scout: $brand-colour-help-scout,
+  heroku: $brand-colour-heroku,
+  hewlett-packard-enterprise: $brand-colour-hewlett-packard-enterprise,
+  hi5: $brand-colour-hi5,
+  highfive: $brand-colour-highfive,
+  home-depot: $brand-colour-home-depot,
+  homeaway: $brand-colour-homeaway,
+  hootsuite: $brand-colour-hootsuite,
+  houzz: $brand-colour-houzz,
+  hp: $brand-colour-hp,
+  hsbc: $brand-colour-hsbc,
+  html5: $brand-colour-html5,
+  hulu: $brand-colour-hulu,
+  hyatt: $brand-colour-hyatt,
+  ibm: $brand-colour-ibm,
+  icons8: $brand-colour-icons8,
+  ideal: $brand-colour-ideal,
+  identi-ca: $brand-colour-identi-ca,
+  ifttt: $brand-colour-ifttt,
+  iheartradio: $brand-colour-iheartradio,
+  ikea: $brand-colour-ikea,
+  imdb: $brand-colour-imdb,
+  imgur: $brand-colour-imgur,
+  indeed: $brand-colour-indeed,
+  indiegogo: $brand-colour-indiegogo,
+  instacart: $brand-colour-instacart,
+  instagram: $brand-colour-instagram,
+  instapage: $brand-colour-instapage,
+  instapaper: $brand-colour-instapaper,
+  intel: $brand-colour-intel,
+  intuit: $brand-colour-intuit,
+  ios: $brand-colour-ios,
+  istock: $brand-colour-istock,
+  jawbone: $brand-colour-jawbone,
+  jbl: $brand-colour-jbl,
+  joomla: $brand-colour-joomla,
+  joyent: $brand-colour-joyent,
+  jquery: $brand-colour-jquery,
+  kaspersky-lab: $brand-colour-kaspersky-lab,
+  keeeb: $brand-colour-keeeb,
+  khan-academy: $brand-colour-khan-academy,
+  kia: $brand-colour-kia,
+  kickstarter: $brand-colour-kickstarter,
+  kik: $brand-colour-kik,
+  kippt: $brand-colour-kippt,
+  kitkat: $brand-colour-kitkat,
+  kiva: $brand-colour-kiva,
+  kiwipay: $brand-colour-kiwipay,
+  klm: $brand-colour-klm,
+  lamborghini: $brand-colour-lamborghini,
+  laravel: $brand-colour-laravel,
+  lastfm: $brand-colour-lastfm,
+  lastpass: $brand-colour-lastpass,
+  lego: $brand-colour-lego,
+  line: $brand-colour-line,
+  linkedin: $brand-colour-linkedin,
+  livestream: $brand-colour-livestream,
+  lloyds: $brand-colour-lloyds,
+  lomo: $brand-colour-lomo,
+  london-underground: $brand-colour-london-underground,
+  lumo: $brand-colour-lumo,
+  lyft: $brand-colour-lyft,
+  magento: $brand-colour-magento,
+  mail-ru: $brand-colour-mail-ru,
+  mailchimp: $brand-colour-mailchimp,
+  mapbox: $brand-colour-mapbox,
+  massy-group: $brand-colour-massy-group,
+  mastercard: $brand-colour-mastercard,
+  mcdonalds: $brand-colour-mcdonalds,
+  medium: $brand-colour-medium,
+  meetup: $brand-colour-meetup,
+  meijer: $brand-colour-meijer,
+  mercadolibre-com: $brand-colour-mercadolibre-com,
+  messenger: $brand-colour-messenger,
+  microsoft: $brand-colour-microsoft,
+  microsoft-band: $brand-colour-microsoft-band,
+  microsoft-office: $brand-colour-microsoft-office,
+  milligram: $brand-colour-milligram,
+  mixcloud: $brand-colour-mixcloud,
+  mixpanel: $brand-colour-mixpanel,
+  mobilink: $brand-colour-mobilink,
+  mollie: $brand-colour-mollie,
+  mongodb: $brand-colour-mongodb,
+  montclair-state-university: $brand-colour-montclair-state-university,
+  motorola: $brand-colour-motorola,
+  mozilla: $brand-colour-mozilla,
+  musixmatch: $brand-colour-musixmatch,
+  muut: $brand-colour-muut,
+  myspace: $brand-colour-myspace,
+  mysql: $brand-colour-mysql,
+  nasa: $brand-colour-nasa,
+  national-geographic: $brand-colour-national-geographic,
+  nationwide: $brand-colour-nationwide,
+  nbc: $brand-colour-nbc,
+  nc-state-university: $brand-colour-nc-state-university,
+  nest: $brand-colour-nest,
+  netflix: $brand-colour-netflix,
+  netvibes: $brand-colour-netvibes,
+  new-balance: $brand-colour-new-balance,
+  new-york-post: $brand-colour-new-york-post,
+  nexar: $brand-colour-nexar,
+  nextdoor: $brand-colour-nextdoor,
+  nike-football: $brand-colour-nike-football,
+  nikefuel: $brand-colour-nikefuel,
+  ning: $brand-colour-ning,
+  node-js: $brand-colour-node-js,
+  nokia: $brand-colour-nokia,
+  norsan-media: $brand-colour-norsan-media,
+  northern-arizona-university: $brand-colour-northern-arizona-university,
+  novartis: $brand-colour-novartis,
+  npm: $brand-colour-npm,
+  ns: $brand-colour-ns,
+  nvidia: $brand-colour-nvidia,
+  odnoklassniki: $brand-colour-odnoklassniki,
+  office-sway: $brand-colour-office-sway,
+  olark: $brand-colour-olark,
+  olympus: $brand-colour-olympus,
+  onshape: $brand-colour-onshape,
+  oovoo: $brand-colour-oovoo,
+  opera: $brand-colour-opera,
+  oracle: $brand-colour-oracle,
+  oregon-state-university: $brand-colour-oregon-state-university,
+  overstock: $brand-colour-overstock,
+  oxford-university-press: $brand-colour-oxford-university-press,
+  panasonic: $brand-colour-panasonic,
+  pandora: $brand-colour-pandora,
+  path: $brand-colour-path,
+  patreon: $brand-colour-patreon,
+  paymill: $brand-colour-paymill,
+  paypal: $brand-colour-paypal,
+  pearson: $brand-colour-pearson,
+  penguin-books: $brand-colour-penguin-books,
+  pepsi: $brand-colour-pepsi,
+  periscope: $brand-colour-periscope,
+  pfizer: $brand-colour-pfizer,
+  philips: $brand-colour-philips,
+  photobucket: $brand-colour-photobucket,
+  php: $brand-colour-php,
+  pinboard: $brand-colour-pinboard,
+  pinterest: $brand-colour-pinterest,
+  pizza-hut: $brand-colour-pizza-hut,
+  plasso: $brand-colour-plasso,
+  plaxo: $brand-colour-plaxo,
+  playstation: $brand-colour-playstation,
+  pocket: $brand-colour-pocket,
+  portfolium: $brand-colour-portfolium,
+  postman: $brand-colour-postman,
+  postmates: $brand-colour-postmates,
+  prezi: $brand-colour-prezi,
+  priceline: $brand-colour-priceline,
+  princeton-university: $brand-colour-princeton-university,
+  product-hunt: $brand-colour-product-hunt,
+  protonmail: $brand-colour-protonmail,
+  purdue-university: $brand-colour-purdue-university,
+  python: $brand-colour-python,
+  qantas-airlines: $brand-colour-qantas-airlines,
+  qualtrics: $brand-colour-qualtrics,
+  quizup: $brand-colour-quizup,
+  quora: $brand-colour-quora,
+  quote-fm: $brand-colour-quote-fm,
+  raspberry-pi: $brand-colour-raspberry-pi,
+  razer: $brand-colour-razer,
+  rdio: $brand-colour-rdio,
+  remax: $brand-colour-remax,
+  react: $brand-colour-react,
+  readability: $brand-colour-readability,
+  realex-payments: $brand-colour-realex-payments,
+  red-hat: $brand-colour-red-hat,
+  reddit: $brand-colour-reddit,
+  redfin: $brand-colour-redfin,
+  redox: $brand-colour-redox,
+  renaissance-hotels: $brand-colour-renaissance-hotels,
+  rentler: $brand-colour-rentler,
+  residence-inn: $brand-colour-residence-inn,
+  reverbnation: $brand-colour-reverbnation,
+  rockpack: $brand-colour-rockpack,
+  roku: $brand-colour-roku,
+  rolls-royce: $brand-colour-rolls-royce,
+  roo-kids: $brand-colour-roo-kids,
+  roon: $brand-colour-roon,
+  rounds: $brand-colour-rounds,
+  rowan-university: $brand-colour-rowan-university,
+  royal-mail: $brand-colour-royal-mail,
+  ruby: $brand-colour-ruby,
+  ruby-on-rails: $brand-colour-ruby-on-rails,
+  rutgers-university: $brand-colour-rutgers-university,
+  sainsburys: $brand-colour-sainsburys,
+  salesforce: $brand-colour-salesforce,
+  samsung: $brand-colour-samsung,
+  san-francisco-giants: $brand-colour-san-francisco-giants,
+  sap: $brand-colour-sap,
+  scouts-uk: $brand-colour-scouts-uk,
+  scribd: $brand-colour-scribd,
+  seton-hall-university: $brand-colour-seton-hall-university,
+  shazam: $brand-colour-shazam,
+  sherwin-williams: $brand-colour-sherwin-williams,
+  shopify: $brand-colour-shopify,
+  shopmium: $brand-colour-shopmium,
+  siemens: $brand-colour-siemens,
+  skillshare: $brand-colour-skillshare,
+  skoda: $brand-colour-skoda,
+  skype: $brand-colour-skype,
+  skywest: $brand-colour-skywest,
+  slack: $brand-colour-slack,
+  slideshare: $brand-colour-slideshare,
+  smashing-magazine: $brand-colour-smashing-magazine,
+  snagajob: $brand-colour-snagajob,
+  snapchat: $brand-colour-snapchat,
+  socialbro: $brand-colour-socialbro,
+  softonic: $brand-colour-softonic,
+  songkick: $brand-colour-songkick,
+  sonicbids: $brand-colour-sonicbids,
+  soulcycle: $brand-colour-soulcycle,
+  soundcloud: $brand-colour-soundcloud,
+  spoken: $brand-colour-spoken,
+  spotify: $brand-colour-spotify,
+  sprint: $brand-colour-sprint,
+  sprout-social: $brand-colour-sprout-social,
+  square-cash: $brand-colour-square-cash,
+  squarespace: $brand-colour-squarespace,
+  stack-exchange: $brand-colour-stack-exchange,
+  stackoverflow: $brand-colour-stackoverflow,
+  staples: $brand-colour-staples,
+  starbucks: $brand-colour-starbucks,
+  status-chart: $brand-colour-status-chart,
+  steam: $brand-colour-steam,
+  sterling-hotels: $brand-colour-sterling-hotels,
+  stockton-university: $brand-colour-stockton-university,
+  storyful: $brand-colour-storyful,
+  strava: $brand-colour-strava,
+  streamable: $brand-colour-streamable,
+  stripe: $brand-colour-stripe,
+  stubhub: $brand-colour-stubhub,
+  studyblue: $brand-colour-studyblue,
+  stumbleupon: $brand-colour-stumbleupon,
+  subway: $brand-colour-subway,
+  sugarcrm: $brand-colour-sugarcrm,
+  suntrust: $brand-colour-suntrust,
+  supershuttle: $brand-colour-supershuttle,
+  swarm: $brand-colour-swarm,
+  t-mobile: $brand-colour-t-mobile,
+  tagstr: $brand-colour-tagstr,
+  taiga: $brand-colour-taiga,
+  target: $brand-colour-target,
+  technorati: $brand-colour-technorati,
+  ted: $brand-colour-ted,
+  telegram: $brand-colour-telegram,
+  tvtag: $brand-colour-tvtag,
+  temple: $brand-colour-temple,
+  tesco: $brand-colour-tesco,
+  tesla: $brand-colour-tesla,
+  texas-am-university: $brand-colour-texas-am-university,
+  texas-tech-university: $brand-colour-texas-tech-university,
+  the-audience-awards: $brand-colour-the-audience-awards,
+  the-college-of-new-jersey: $brand-colour-the-college-of-new-jersey,
+  the-next-web: $brand-colour-the-next-web,
+  the-ritz-carlton: $brand-colour-the-ritz-carlton,
+  the-sun: $brand-colour-the-sun,
+  the-sun-goals: $brand-colour-the-sun-goals,
+  the-sun-perks: $brand-colour-the-sun-perks,
+  the-times: $brand-colour-the-times,
+  thomson-reuters: $brand-colour-thomson-reuters,
+  tivo: $brand-colour-tivo,
+  treehouse: $brand-colour-treehouse,
+  trello: $brand-colour-trello,
+  tripadvisor: $brand-colour-tripadvisor,
+  trulia: $brand-colour-trulia,
+  tumblr: $brand-colour-tumblr,
+  tunngle: $brand-colour-tunngle,
+  turbotax: $brand-colour-turbotax,
+  twentythree: $brand-colour-twentythree,
+  twitch-tv: $brand-colour-twitch-tv,
+  twitter: $brand-colour-twitter,
+  typekit: $brand-colour-typekit,
+  typepad: $brand-colour-typepad,
+  typo3: $brand-colour-typo3,
+  uber: $brand-colour-uber,
+  ubuntu: $brand-colour-ubuntu,
+  uc-berkeley: $brand-colour-uc-berkeley,
+  ucsf: $brand-colour-ucsf,
+  united-way: $brand-colour-united-way,
+  unity: $brand-colour-unity,
+  universitat-hamburg: $brand-colour-universitat-hamburg,
+  university-of-alberta: $brand-colour-university-of-alberta,
+  university-of-arizona: $brand-colour-university-of-arizona,
+  university-of-cambridge: $brand-colour-university-of-cambridge,
+  university-of-florida: $brand-colour-university-of-florida,
+  university-of-illinois-urbana-champaign: $brand-colour-university-of-illinois-urbana-champaign,
+  university-of-kentucky: $brand-colour-university-of-kentucky,
+  university-of-michigan: $brand-colour-university-of-michigan,
+  university-of-oregon: $brand-colour-university-of-oregon,
+  university-of-texas: $brand-colour-university-of-texas,
+  university-of-victoria: $brand-colour-university-of-victoria,
+  university-of-washington: $brand-colour-university-of-washington,
+  university-of-waterloo: $brand-colour-university-of-waterloo,
+  university-of-wisconsin-milwaukee: $brand-colour-university-of-wisconsin-milwaukee,
+  univision: $brand-colour-univision,
+  ups: $brand-colour-ups,
+  usps: $brand-colour-usps,
+  ustream: $brand-colour-ustream,
+  verizon: $brand-colour-verizon,
+  viadeo: $brand-colour-viadeo,
+  viber: $brand-colour-viber,
+  vidme: $brand-colour-vidme,
+  viki: $brand-colour-viki,
+  vimeo: $brand-colour-vimeo,
+  vine: $brand-colour-vine,
+  virb: $brand-colour-virb,
+  virgin-media: $brand-colour-virgin-media,
+  visa: $brand-colour-visa,
+  visualcv: $brand-colour-visualcv,
+  visually: $brand-colour-visually,
+  vkontakte: $brand-colour-vkontakte,
+  vodafone: $brand-colour-vodafone,
+  volvo: $brand-colour-volvo,
+  vue-js: $brand-colour-vue-js,
+  walgreens: $brand-colour-walgreens,
+  walmart: $brand-colour-walmart,
+  warby-parker: $brand-colour-warby-parker,
+  wave-apps: $brand-colour-wave-apps,
+  webzunder: $brand-colour-webzunder,
+  wechat: $brand-colour-wechat,
+  wendys: $brand-colour-wendys,
+  western-digital: $brand-colour-western-digital,
+  whatsapp: $brand-colour-whatsapp,
+  whoosnap-designer: $brand-colour-whoosnap-designer,
+  wikipedia: $brand-colour-wikipedia,
+  windows: $brand-colour-windows,
+  windows-phone: $brand-colour-windows-phone,
+  wooga: $brand-colour-wooga,
+  wordpress: $brand-colour-wordpress,
+  wordpress-com: $brand-colour-wordpress-com,
+  world-organisation-of-the-scout-movement-wosm: $brand-colour-world-organisation-of-the-scout-movement-wosm,
+  worldline: $brand-colour-worldline,
+  wufoo: $brand-colour-wufoo,
+  wunderlist: $brand-colour-wunderlist,
+  wwe: $brand-colour-wwe,
+  xbox: $brand-colour-xbox,
+  xing: $brand-colour-xing,
+  xy-gaming: $brand-colour-xy-gaming,
+  yahoo: $brand-colour-yahoo,
+  yandex: $brand-colour-yandex,
+  yellow-pages: $brand-colour-yellow-pages,
+  yelp: $brand-colour-yelp,
+  yo: $brand-colour-yo,
+  youtube: $brand-colour-youtube,
+  zapier: $brand-colour-zapier,
+  zendesk: $brand-colour-zendesk,
+  zerply: $brand-colour-zerply,
+  zillow: $brand-colour-zillow,
+  zomato: $brand-colour-zomato,
+  zopim: $brand-colour-zopim
+);
