@@ -42,17 +42,14 @@ dl {
   $dd-column-size: $grid-columns / 1.4;
   $dt-column-size: $grid-columns - $dd-column-size;
 
-  @include outer-container(100%);
-  @include fill-parent;
-
   dl {
     margin: 0;
 
-    @include row;
+    @include grid-container;
   }
 
   dt {
-    @include span-columns($dt-column-size);
+    @include grid-column($dt-column-size);
 
     margin-bottom: .5rem;
   }
@@ -60,8 +57,7 @@ dl {
   dd {
     margin-left: 0;
 
-    @include span-columns($dd-column-size);
-    @include omega;
+    @include grid-column($dd-column-size);
 
     margin-bottom: map-get($spacers, 2);
   }

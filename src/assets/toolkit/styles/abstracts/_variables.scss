@@ -1,16 +1,52 @@
 // Variables
-// ---------
+// =========
+
+// Grid Columns
+// ------------
+$grid-columns: 12;
 
 // Breakpoints
+// -----------
+$breakpoint-xlarge: (
+  columns: $grid-columns,
+  gutter: 50px,
+  media: 1690px
+) !default;
+
+$breakpoint-large: (
+  columns: $grid-columns,
+  gutter: 50px,
+  media: 1280px
+) !default;
+
+$breakpoint-medium: (
+  columns: $grid-columns,
+  gutter: 50px,
+  media: 980px
+) !default;
+
+$breakpoint-small: (
+  columns: $grid-columns,
+  gutter: 50px,
+  media: 736px
+) !default;
+
+$breakpoint-xsmall: (
+  columns: $grid-columns,
+  gutter: 50px,
+  media: 480px
+) !default;
+
 $breakpoints: (
-  xlarge: new-breakpoint(min-width 1690px),
-  large: new-breakpoint(min-width 1280px),
-  medium: new-breakpoint(min-width 980px),
-  small: new-breakpoint(min-width 736px),
-  xsmall: new-breakpoint(min-width 480px)
+  xlarge: $breakpoint-xlarge,
+  large: $breakpoint-large,
+  medium: $breakpoint-medium,
+  small: $breakpoint-small,
+  xsmall: $breakpoint-xsmall
 ) !default;
 
 // Theme Colours
+// -------------
 $colour-primary: $colour-lochmara !default;
 $colour-secondary: $colour-carnation !default;
 $colour-success: $colour-caribbean-green !default;
@@ -27,18 +63,55 @@ $theme-colours: (
   danger: $colour-danger
 ) !default;
 
+// Theme Colours Tinted
+$colour-primary-tinted: mix($colour-white, $colour-primary, 10%);
+$colour-secondary-tinted: mix($colour-white, $colour-secondary, 10%);
+$colour-success-tinted: mix($colour-white, $colour-success, 10%);
+$colour-info-tinted: mix($colour-white, $colour-info, 10%);
+$colour-warning-tinted: mix($colour-white, $colour-warning, 10%);
+$colour-danger-tinted: mix($colour-white, $colour-danger, 10%);
+
+$theme-colours-tinted: (
+  primary: $colour-primary-tinted,
+  secondary: $colour-secondary-tinted,
+  sucess: $colour-success-tinted,
+  shaded: $colour-info-tinted,
+  warning: $colour-warning-tinted,
+  danger: $colour-danger-tinted
+) !default;
+
+// Theme Colours Shaded
+$colour-primary-shaded: mix($colour-black, $colour-primary, 10%);
+$colour-secondary-shaded: mix($colour-black, $colour-secondary, 10%);
+$colour-success-shaded: mix($colour-black, $colour-success, 10%);
+$colour-info-shaded: mix($colour-black, $colour-info, 10%);
+$colour-warning-shaded: mix($colour-black, $colour-warning, 10%);
+$colour-danger-shaded: mix($colour-black, $colour-danger, 10%);
+
+$theme-colours-shaded: (
+  primary: $colour-primary-shaded,
+  secondary: $colour-secondary-shaded,
+  sucess: $colour-success-shaded,
+  shaded: $colour-info-shaded,
+  warning: $colour-warning-shaded,
+  danger: $colour-danger-shaded
+) !default;
+
 // HTML & Body
+// -----------
 $html-bg-colour: $colour-primary !default;
 $body-bg-colour: $colour-white !default;
 $text-colour: $colour-grey-dark !default;
 
 // Links
+// -----
 $link-colour: $colour-primary !default;
 $link-decoration: none !default;
 $link-hover-colour: darken($link-colour, 15%) !default;
 $link-hover-decoration: underline !default;
 
 // Font Family
+// -----------
 $base-font-weight: normal !default;
 $base-font-size: 1rem !default;
 $base-line-height: 1.5 !default;
@@ -61,12 +134,14 @@ $mono-line-height: $base-line-height !default;
 $base-font-family: $sans-font-family !default;
 
 // Border Radius
+// -------------
 $enable-rounded: true !default;
 $border-radius: .25rem !default;
 $border-radius-lg: .3rem !default;
 $border-radius-sm: .2rem !default;
 
 // Spacing
+// -------
 $spacer: 1rem !default;
 
 $spacers: (
@@ -79,6 +154,7 @@ $spacers: (
 ) !default;
 
 // Sizes
+// -----
 $sizes: (
   25: 25%,
   50: 50%,
@@ -97,6 +173,7 @@ $name-sizes: (
 ) !default;
 
 // Headings
+// --------
 $headings-colour: inherit !default;
 $headings-font-family: $base-font-family !default;
 $headings-font-weight: 500 !default;
@@ -127,5 +204,6 @@ $displays-font-sizes: (
 ) !default;
 
 // Paragraph
+// ---------
 $lead-font-size: 1.2em !default;
 $lead-font-weight: 300 !default;

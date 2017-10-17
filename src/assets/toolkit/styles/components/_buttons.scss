@@ -45,23 +45,8 @@ $c-btn-font-weight: normal !default;
     width: 100%;
   }
 
-  &--primary {
-    @include button-colour-variant($colour-primary);
+  @each $name, $colour in $theme-colours {
 
-    .#{$c-name-module}__icon * {
-      fill: set-text-colour($colour-primary);
-    }
-  }
-
-  &--secondary {
-    @include button-outline-colour-variant($colour-secondary);
-
-    .#{$c-name-module}__icon * {
-      fill: $colour-secondary;
-    }
-  }
-
-  @each $name, $colour in $colour-palette {
     &--#{$name} {
       @include button-colour-variant($colour);
 

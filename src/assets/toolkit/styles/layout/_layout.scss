@@ -1,25 +1,35 @@
 $module: 'l';
 
 .#{$module} {
-  @include outer-container;
-
-  &--fill {
-    @include fill-parent;
-  }
-
   &__row {
-    @include row;
+    @include grid-container;
   }
 
   @for $i from 1 through $grid-columns {
     &__col-#{$i} {
-      @include span-columns($grid-columns / $i);
+      @include grid-column($grid-columns / $i);
+    }
+
+    &__push-#{$i} {
+      @include grid-push($grid-columns / $i);
+    }
+
+    &__shift-#{$i} {
+      @include grid-shift($grid-columns / $i);
     }
 
     @each $breakpoint, $query in $breakpoints {
-      @include media($query) {
+      @include grid-media($query) {
         &__col-#{$breakpoint}-#{$i} {
-          @include span-columns($grid-columns / $i);
+          @include grid-column($grid-columns / $i);
+        }
+
+        &__push-#{$i} {
+          @include grid-push($grid-columns / $i);
+        }
+
+        &__shift-#{$breakpoint}-#{$i} {
+          @include grid-shift($grid-columns / $i);
         }
       }
     }

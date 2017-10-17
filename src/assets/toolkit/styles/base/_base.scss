@@ -1,17 +1,17 @@
 html {
-  @include media(map-get($breakpoints, 'xsmall')) {
+  @include grid-media(map-get($breakpoints, 'xsmall')) {
     font-size: calc(16px + 6 * ((100vw - 480px) / 736));
   }
 
-  @include media(map-get($breakpoints, 'medium')) {
+  @include grid-media(map-get($breakpoints, 'medium')) {
     font-size: 18px;
   }
 
-  @include media(map-get($breakpoints, 'large')) {
+  @include grid-media(map-get($breakpoints, 'large')) {
     font-size: 22px;
   }
 
-  @include media(map-get($breakpoints, 'xlarge')) {
+  @include grid-media(map-get($breakpoints, 'xlarge')) {
     font-size: 26px;
   }
 
@@ -19,7 +19,7 @@ html {
   font-size: 16px;
 }
 
-body {
+%body {
   background-color: $body-bg-colour;
   color: $text-colour;
   display: flex;
@@ -32,4 +32,16 @@ body {
   min-height: 100vh;
   padding: 0;
   text-size-adjust: 100%;
+}
+
+body {
+  @extend %body;
+}
+
+.body {
+  @extend %body;
+
+  &--grid-visual {
+    @include grid-visual;
+  }
 }

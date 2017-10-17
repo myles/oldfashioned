@@ -1,8 +1,9 @@
 $c-block-hero-module-name: 'c-block-hero';
 
 $c-block-hero-bg-colour: $colour-primary !default;
-$c-block-hero-text-colour: $colour-white !default
+$c-block-hero-text-colour: $colour-white !default;
 $c-block-hero-contrast: ch-color-contrast($c-block-hero-bg-colour, $c-block-hero-text-colour);
+$c-block-hero-link-colour: $c-block-hero-text-colour !default;
 
 @if ($c-block-hero-contrast < 3) {
   @warn 'Contrast ratio of #{$c-block-hero-text-colour} on #{$c-block-hero-bg-colour} is pretty bad, just #{$c-block-hero-contrast}';
@@ -15,6 +16,14 @@ $c-block-hero-contrast: ch-color-contrast($c-block-hero-bg-colour, $c-block-hero
   min-height: 50vh;
   position: relative;
 
+  &--link {
+    @include hover-focus-active {
+      color: transparentize($c-block-hero-link-colour, .25);
+    }
+
+    color: $c-block-hero-link-colour;
+  }
+
   &__image {
     display: block;
     min-height: 50vh;
@@ -23,6 +32,10 @@ $c-block-hero-contrast: ch-color-contrast($c-block-hero-bg-colour, $c-block-hero
 
     &--full {
       min-height: 100vh;
+    }
+
+    &--half {
+      min-height: 50vh;
     }
 
     &--dark {
@@ -35,19 +48,18 @@ $c-block-hero-contrast: ch-color-contrast($c-block-hero-bg-colour, $c-block-hero
   }
 
   &__wrapper {
-    @include media(map-get($breakpoints, 'medium')) {
+    @include grid-media(map-get($breakpoints, 'medium')) {
       @include size(100%);
 
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       left: 0;
-      padding: $spacer;
       position: absolute;
       top: 0;
     }
 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 

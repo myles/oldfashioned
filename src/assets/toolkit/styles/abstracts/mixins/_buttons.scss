@@ -18,6 +18,7 @@
   @include hover-focus-active {
     background-color: darken($colour, 15);
     color: set-text-colour($colour);
+    text-decoration: none;
   }
 }
 
@@ -27,5 +28,6 @@
 
   @include hover-focus-active {
     border-color: darken($colour, 15);
+    text-decoration: none;
   }
 }

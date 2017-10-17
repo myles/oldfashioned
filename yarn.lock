@@ -978,15 +978,13 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-bourbon-neat@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/bourbon-neat/-/bourbon-neat-1.9.0.tgz#fa38ea0ccbd857f0232030f5efd3b8a225b2a424"
-  dependencies:
-    node-sass "^4.1.1"
+bourbon-neat@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bourbon-neat/-/bourbon-neat-2.1.0.tgz#b32ce101f447c35c57b6e833de74567f8b5f9082"
 
-bourbon@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-4.3.4.tgz#4da380029e92c0c8f9764c779451a134b11e7cc3"
+bourbon@5.0.0-beta.8:
+  version "5.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-5.0.0-beta.8.tgz#46981c3b072014367217b8074af1efc5b4c5df76"
 
 brace-expansion@^1.0.0, brace-expansion@^1.1.7:
   version "1.1.8"
@@ -4471,7 +4469,7 @@ node-sass-utils@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/node-sass-utils/-/node-sass-utils-1.1.2.tgz#d03639cfa4fc962398ba3648ab466f0db7cc2131"
 
-"node-sass@^4.0.0 || ^3.10.1", node-sass@^4.1.1, node-sass@^4.2.0:
+"node-sass@^4.0.0 || ^3.10.1", node-sass@^4.2.0:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.3.tgz#d09c9d1179641239d1b97ffc6231fdcec53e1568"
   dependencies:
