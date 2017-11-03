@@ -1,17 +1,21 @@
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/print';
+@import 'bootstrap/scss/reboot';
+
 html {
-  @include grid-media(map-get($breakpoints, 'xsmall')) {
+  @include media-breakpoint-up('sm') {
     font-size: calc(16px + 6 * ((100vw - 480px) / 736));
   }
 
-  @include grid-media(map-get($breakpoints, 'medium')) {
+  @include media-breakpoint-up('md') {
     font-size: 18px;
   }
 
-  @include grid-media(map-get($breakpoints, 'large')) {
+  @include media-breakpoint-up('lg') {
     font-size: 22px;
   }
 
-  @include grid-media(map-get($breakpoints, 'xlarge')) {
+  @include media-breakpoint-up('xl') {
     font-size: 26px;
   }
 
@@ -40,8 +44,4 @@ body {
 
 .body {
   @extend %body;
-
-  &--grid-visual {
-    @include grid-visual;
-  }
 }

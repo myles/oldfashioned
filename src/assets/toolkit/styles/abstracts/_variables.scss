@@ -1,111 +1,37 @@
 // Variables
 // =========
 
-// Grid Columns
-// ------------
-$grid-columns: 12;
-
-// Breakpoints
-// -----------
-$breakpoint-xlarge: (
-  columns: $grid-columns,
-  gutter: 50px,
-  media: 1690px
-) !default;
-
-$breakpoint-large: (
-  columns: $grid-columns,
-  gutter: 50px,
-  media: 1280px
-) !default;
-
-$breakpoint-medium: (
-  columns: $grid-columns,
-  gutter: 50px,
-  media: 980px
-) !default;
-
-$breakpoint-small: (
-  columns: $grid-columns,
-  gutter: 50px,
-  media: 736px
-) !default;
-
-$breakpoint-xsmall: (
-  columns: $grid-columns,
-  gutter: 50px,
-  media: 480px
-) !default;
-
-$breakpoints: (
-  xlarge: $breakpoint-xlarge,
-  large: $breakpoint-large,
-  medium: $breakpoint-medium,
-  small: $breakpoint-small,
-  xsmall: $breakpoint-xsmall
-) !default;
-
 // Theme Colours
 // -------------
-$colour-primary: $colour-lochmara !default;
-$colour-secondary: $colour-carnation !default;
-$colour-success: $colour-caribbean-green !default;
-$colour-info: $colour-malibu !default;
-$colour-warning: $colour-paris-daisy !default;
-$colour-danger: $colour-carnation !default;
+$primary: $colour-lochmara !default;
+$secondary: $colour-carnation !default;
+$success: $colour-caribbean-green !default;
+$info: $colour-malibu !default;
+$warning: $colour-paris-daisy !default;
+$danger: $colour-carnation !default;
+$light: $colour-grey-lightest !default;
+$dark: $colour-grey-dark !default;
 
-$theme-colours: (
-  primary: $colour-primary,
-  secondary: $colour-secondary,
-  success: $colour-success,
-  info: $colour-info,
-  warning: $colour-warning,
-  danger: $colour-danger
-) !default;
-
-// Theme Colours Tinted
-$colour-primary-tinted: mix($colour-white, $colour-primary, 10%);
-$colour-secondary-tinted: mix($colour-white, $colour-secondary, 10%);
-$colour-success-tinted: mix($colour-white, $colour-success, 10%);
-$colour-info-tinted: mix($colour-white, $colour-info, 10%);
-$colour-warning-tinted: mix($colour-white, $colour-warning, 10%);
-$colour-danger-tinted: mix($colour-white, $colour-danger, 10%);
-
-$theme-colours-tinted: (
-  primary: $colour-primary-tinted,
-  secondary: $colour-secondary-tinted,
-  sucess: $colour-success-tinted,
-  shaded: $colour-info-tinted,
-  warning: $colour-warning-tinted,
-  danger: $colour-danger-tinted
-) !default;
-
-// Theme Colours Shaded
-$colour-primary-shaded: mix($colour-black, $colour-primary, 10%);
-$colour-secondary-shaded: mix($colour-black, $colour-secondary, 10%);
-$colour-success-shaded: mix($colour-black, $colour-success, 10%);
-$colour-info-shaded: mix($colour-black, $colour-info, 10%);
-$colour-warning-shaded: mix($colour-black, $colour-warning, 10%);
-$colour-danger-shaded: mix($colour-black, $colour-danger, 10%);
-
-$theme-colours-shaded: (
-  primary: $colour-primary-shaded,
-  secondary: $colour-secondary-shaded,
-  sucess: $colour-success-shaded,
-  shaded: $colour-info-shaded,
-  warning: $colour-warning-shaded,
-  danger: $colour-danger-shaded
-) !default;
+$theme-colours: map-merge((
+    'primary': $primary,
+    'secondary': $secondary,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'light': $light,
+    'dark': $dark
+), $theme-colors);
 
 // HTML & Body
 // -----------
-$html-bg-colour: $colour-primary !default;
+$html-bg-colour: $primary !default;
 $body-bg-colour: $colour-white !default;
 $text-colour: $colour-grey-dark !default;
 
 // Links
 // -----
-$link-colour: $colour-primary !default;
+$link-colour: $primary !default;
 $link-decoration: none !default;
 $link-hover-colour: darken($link-colour, 15%) !default;
 $link-hover-decoration: underline !default;

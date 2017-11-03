@@ -8,8 +8,11 @@
 //sass-lint:enable no-css-comments
 
 @import 'sass-color-helpers/stylesheets/color-helpers';
-@import 'bourbon/core/bourbon';
-@import 'bourbon-neat/core/neat';
+
+// Bootstrap
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
 
 // Abstracts
 @import 'abstracts/colours';
@@ -29,28 +32,4 @@
 
 // Base
 @import 'base/base';
-
-@import 'base/backgrounds';
-@import 'base/displays';
-@import 'base/code-block';
-@import 'base/font-families';
-@import 'base/headings';
-@import 'base/links';
-@import 'base/lists';
-@import 'base/paragraph';
 @import 'base/type';
-@import 'base/utilities';
-
-// Components
-@import 'components/alerts';
-@import 'components/block-hero';
-@import 'components/buttons';
-@import 'components/footer';
-@import 'components/forms';
-@import 'components/header';
-@import 'components/icons';
-@import 'components/images';
-@import 'components/navigation';
-
-// Layout
-@import 'layout/layout';
